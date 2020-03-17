@@ -1,0 +1,21 @@
+{
+  "name": "ficaemcasa",
+  "version": "1.0.0",
+  "description": "Site do fica em casa",
+  "dependencies": {},
+  "devDependencies": {
+    "font-awesome": "4.7.0",
+    "grunt": "^1.0.4",
+    "grunt-contrib-sass": "^v0.8.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-notify": "0.4.5",
+    "jit-grunt": "0.10.0",
+    "bootstrap": "4.4.1",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.0"
+  },
+  "scripts": {},
+  "repository": {},
+  "author": "",
+  "license": "MIT"
+}
