@@ -54,6 +54,8 @@
 	<meta name="twitter:description"    content="Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena. Caldas da Rainha e arredores.">
 	<meta name="twitter:creator"        content="NinjaCorp">
 
+	<link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/website-theme.css">
 	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
@@ -62,7 +64,7 @@
 	<body>
 
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<nav class="navbar navbar-collapse-xl navbar-dark bg-dark sticky-top">
 			<a class="navbar-brand" href="#">Fique em casa!!!</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
@@ -163,42 +165,128 @@
 		<!-- AVISOS /////////////////////////////////////////////////////////// -->
 		<!-- AVISOS /////////////////////////////////////////////////////////// -->
 
+
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-12">
+					<div class="alert alert-danger" role="alert">
+						<p><strong>Dados Covid-19</strong> - 1020 casos confirmados - 6 Óbitos - 7732 casos supeitos</p>
+						<a target="_blank" href="https://esriportugal.maps.arcgis.com/apps/opsdashboard/index.html#/acf023da9a0b4f9dbb2332c13f635829" class="card-link">Site</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+
+		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
+		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
+		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
+		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
+
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h2><i class="fa fa-info-circle"></i> Destaques</h2>
+					<h2><i class="fa fa-bullhorn"></i> Destaques / Novas entradas</h2>
 					<br>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12">
-					<div class="alert alert-warning" role="alert">
-						<p><strong>Clínica Veterinária Óbidos</strong> Ração, desparasitante e medicação - Entregam em casa - 927 549 555 - 262 959 072</p>
-						<a target="_blank" href="https://www.facebook.com/CVObidos/" class="card-link">Facebook</a>
-					</div>
-				</div>
+			<div class="row destaques">
 
-				<div class="col-12">
-					<div class="alert alert-warning" role="alert">
-						<p><strong>BiO's Mercado Biológico</strong> Verduras, horticulas, e mercearias alimentícias biologicas. Atendimento à porta - 917832582</p>
-						<a target="_blank" href="https://www.facebook.com/BiOsCaldasRainha/" class="card-link">Facebook</a>
+				<!-- card -->
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card w-100">
+						<img src="img/vamosnos.jpg" class="card-img-top" alt="Vamos nÓs por si">
+						<div class="card-body">
+							<h5 class="card-title">Vamos nÓs por si</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Ajuda</h6>
+							<p class="card-text">Óbidos, mais de 65 anos, doentes crónicos. Supermercado, Farmácia<br>
+							Espaço Ó - 912 268 168<br>
+						Precisam-se voluntários</p>
+							
+							<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform" class="card-link">Voluntários</a>
+							<a target="_blank" href="https://www.facebook.com/espaco.ativacao/" class="card-link">Facebook</a>
+						</div>
 					</div>
 				</div>
-				
-				<div class="col-12">
-					<div class="alert alert-warning" role="alert">
-						<p><strong>Farmácia de Alvorninha</strong> Entrega em casa - 262 930 706 - farmacia.alvorninha@gmail.com</p>
-						<a target="_blank" href="mailto:farmacia.alvorninha@gmail.com" class="card-link">Email</a>
+				<!-- fim de card -->
+			
+				<!-- card -->
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card w-100">
+						<img src="img/clinicaveterenariaobidos.jpg" class="card-img-top" alt="Clínica Veterinária Óbidos">
+						<div class="card-body">
+							<h5 class="card-title">Clínica Veterinária Óbidos</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Animais</h6>
+							<p class="card-text">Ração, desparasitante e medicação - Entregam em casa - 927 549 555 - 262 959 072</p>
+							<a target="_blank" href="https://www.facebook.com/CVObidos/" class="card-link">Facebook</a>
+							
+						</div>
 					</div>
 				</div>
-				<div class="col-12">
-					<div class="alert alert-warning" role="alert">
-						<p><strong>Beeorganic</strong> Hortícolas de origem biológica – Ponto de entrega - 918 363 507</p>
-						<a target="_blank" href="http://beeorganic.pt/" class="card-link">Site</a>
-						<a target="_blank" href="https://www.facebook.com/beeorganic.pt/" class="card-link">Facebook</a>
+				<!-- fim de card -->
+
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card w-100">
+						<img src="img/sandraloirinha.jpg" class="card-img-top" alt="Sandra loirinha">
+						<div class="card-body">
+							<h5 class="card-title">Sandra loirinha</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Outros</h6>
+							<p class="card-text">Verduras, horticulas, frutos, etc. Mensagem privada pelo Facebook</p>
+							<a target="_blank" href="https://www.facebook.com/hortasdasandraepaulo/" class="card-link">Facebook</a>
+						</div>
 					</div>
 				</div>
-				
+				<!-- fim de card -->
+
+				<!-- card -->
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card w-100">
+						<img src="img/biosmercado.jpg" class="card-img-top" alt="BiO's Mercado Biológico">
+						<div class="card-body">
+							<h5 class="card-title">BiO's Mercado Biológico</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Outros</h6>
+							<p class="card-text">Verduras, horticulas, e mercearias alimentícias biologicas. 
+								<br>Atendimento à porta. 
+								<br>917832582</p>
+							<a target="_blank" href="https://www.facebook.com/BiOsCaldasRainha/" class="card-link">Facebook</a>
+						</div>
+					</div>
+				</div>
+				<!-- fim de card -->
+
+					<!-- card -->
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card w-100">
+						<img src="img/farmaciaalvorinha.jpg" class="card-img-top" alt="Farmácia">
+						<div class="card-body">
+							<h5 class="card-title">Farmácia de Alvorninha</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Farmácias</h6>
+							<p class="card-text">Entrega em casa<br>
+							262 930 706 - farmacia.alvorninha@gmail.com</p>
+							<a target="_blank" href="mailto:farmacia.alvorninha@gmail.com" class="card-link">Email</a>
+						</div>
+					</div>
+				</div>
+				<!-- fim de card -->
+
+				 <!-- card -->
+				 <div class="col-12 col-md-4 mb-4">
+					<div class="card w-100">
+						<img src="img/beeorganic.jpg" class="card-img-top" alt="Beeorganic">
+						<div class="card-body">
+							<h5 class="card-title">Beeorganic</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Outros</h6>
+							<p class="card-text">Hortícolas de origem biológica – Ponto de entrega - 918 363 507</p>
+							<a target="_blank" href="https://www.facebook.com/beeorganic.pt/" class="card-link">Facebook</a>
+							<a target="_blank" href="http://beeorganic.pt/" class="card-link">Site</a>
+						</div>
+					</div>
+				</div>
+				<!-- fim de card -->
+
+					
 			</div>
 		</div>
 
@@ -740,7 +828,7 @@
 		<div class="container pt-5">
 			<div class="row">
 				<div class="col-12">
-					<h2><i class="fa fa-user-md"></i>  Animais</h2>
+					<h2><i class="fa fa-paw"></i>  Animais</h2>
 					<br>
 				</div>
 			</div>
@@ -1516,9 +1604,62 @@
 	
 
 		
-		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<script src="node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
+		<script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+
+		<script>
+		$('.destaques').slick({
+		  dots: true,
+		  infinite: false,
+		  speed: 300,
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  arrows: true,
+		  autoplay: true,
+  		  autoplaySpeed: 2000,
+		  responsive: [
+		    {
+		      breakpoint: 1024,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        arrows: true,
+		        autoplay: true,
+  		  		autoplaySpeed: 2000,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        autoplay: true,
+  		  		autoplaySpeed: 2000,
+		        arrows: false
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        autoplay: true,
+  		  		autoplaySpeed: 2000,
+		        slidesToScroll: 1
+		      }
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		  ]
+		});
+				
+		</script>
 		
 	</body>
 	</html>
