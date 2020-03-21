@@ -1,0 +1,43 @@
+{
+   "time":{
+      "updated":"19 de Março 2020 - 17:19"
+   },
+   "caldasDaRainha":{
+      "service":{
+         "img":"img/biosmercado.jpg",
+         "nome":"BiO's Mercado Biológico",
+         "categoria":"Outros",
+         "desc":"Verduras, horticulas, e mercearias alimentícias biologicas. Atendimento à porta. 917 832 582",
+         "linkUm":"https://www.facebook.com/BiOsCaldasRainha/",
+         "linkUmTxt":"Facebook",
+         "linkDois":"",
+         "linkDoisTxt":"",
+         "linkTres":"",
+         "linkUmTres":""
+      },
+      "service":{
+         "img":"img/biosmercado.jpg",
+         "nome":"BiO's Mercado Biológico",
+         "categoria":"Outros",
+         "desc":"Verduras, horticulas, e mercearias alimentícias biologicas. Atendimento à porta. 917 832 582",
+         "linkUm":"https://www.facebook.com/BiOsCaldasRainha/",
+         "linkUmTxt":"Facebook",
+         "linkDois":"",
+         "linkDoisTxt":"",
+         "linkTres":"",
+         "linkUmTres":""
+      },
+      "s":{
+         "img":"img/biosmercado.jpg",
+         "nome":"BiO's Mercado Biológico",
+         "categoria":"Outros",
+         "desc":"Verduras, horticulas, e mercearias alimentícias biologicas. Atendimento à porta. 917 832 582",
+         "linkUm":"https://www.facebook.com/BiOsCaldasRainha/",
+         "linkUmTxt":"Facebook",
+         "linkDois":"",
+         "linkDoisTxt":"",
+         "linkTres":"",
+         "linkUmTres":""
+      },
+   }
+}
