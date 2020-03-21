@@ -865,7 +865,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/nga.jpg",
 		"nome":"National Gallery of Art, EUA",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -877,7 +877,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/vaticano.jpg",
 		"nome":"Museu do Vaticano",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -889,7 +889,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/nam.jpg",
 		"nome":"National Archaeological Museum, Grécia",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -901,7 +901,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/prado.jpg",
 		"nome":"Museo del Prado",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -913,7 +913,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/louvre.jpg",
 		"nome":"Musée du Louvre",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -925,7 +925,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/britishmuseu.jpg",
 		"nome":"The British Museum",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -937,7 +937,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/hermitage.jpg",
 		"nome":"The Hermitage Museum, Rússia",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -949,7 +949,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/brera.jpg",
 		"nome":"Pinacoteca de Brera, Itália",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -961,7 +961,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/uffizi.jpg",
 		"nome":"Galleria Delgi Uffizi, Itália",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -973,8 +973,8 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
-		"nome":"Metropolitem Museus os Art, EUA",
+      	"imagem":"img/metropolitan.jpg",
+		"nome":"The Metropolitan Museum of Art, EUA",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
 		"linkUm":"https://artsandculture.google.com/streetview/metropolitan-museum-of-art/KAFHmsOTE-4Xyw?sv_lng=-73.9624786&sv_lat=40.7803959&sv_h=3.6950576062148457&sv_p=-2.0559112937385606&sv_pid=KeFx8oXHzeuY8L5rfepHaA&sv_z=1.0000000000000002",
@@ -985,7 +985,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/guggen.jpg",
 		"nome":"Museu Solomon R. Guggenheim, EUA",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -997,7 +997,7 @@ new Vue({
 		"linkUmTres":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+      	"imagem":"img/dali.jpg",
 		"nome":"Teatro-Museu Dalí, Espanha",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
