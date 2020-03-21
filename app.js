@@ -4,13 +4,25 @@ new Vue({
   return {
     time:  ['21 de Março 2020 - 17:53'],
     destaques: [
-      {
-      	"imagem":"img/cativar.jpg",
-		"nome":"O Reino Dó Ré Mi - Directo no instagram",
-		"categoria":"Para os mais novos",
-		"desc":"Teatro de fantoches - 21 de Março 17:00 - 17:30",
-		"linkUm":"https://www.instagram.com/cativarteatro/",
-		"linkUmTxt":"Instagram",
+     {
+      	"imagem":"img/avaliarsintomas.jpg",
+		"nome":"Avaliar Sintomas - Covid19",
+		"categoria":"Covid-19",
+		"desc":"Fact-Checking",
+		"linkUm":"https://www.sns24.gov.pt/avaliar-sintomas/?intro-sc=covid-19",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":""
+	},
+	{
+      	"imagem":"img/covid19duvidas.jpg",
+		"nome":"COVID19 dúvidas respondidas por profissionais de saúde",
+		"categoria":"Covid-19",
+		"desc":"Grupo do Facebook com profissionais de saúde que esclarecem dúvidas sobre o Covid-19.",
+		"linkUm":"https://www.facebook.com/groups/covid19duvidas/",
+		"linkUmTxt":"Grupo de Facebook",
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
@@ -25,6 +37,30 @@ new Vue({
 		"linkUmTxt":"Facebook",
 		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
 		"linkDoisTxt":"Voluntários",
+		"linkTres":"",
+		"linkUmTres":""
+	},
+	{
+      	"imagem":"img/wemendesbatas.jpg",
+		"nome":"Ajuda para os nossos profissionais de saúde.",
+		"categoria":"Ajuda",
+		"desc":"AJUDEM!Túnicas, batas e toucas para os nossos profissionais de saúde - 262 833 937",
+		"linkUm":"https://www.facebook.com/wemendessisters/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":""
+	},
+	{
+      	"imagem":"img/saboresditalia.jpg",
+		"nome":"Sabores D´Itália",
+		"categoria":"Comida em casa",
+		"desc":"Take away - 262 845 600",
+		"linkUm":"https://www.facebook.com/Restaurante-Sabores-dIt%C3%A1lia-139819609386055/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"saboresditalia.com",
+		"linkDoisTxt":"Site",
 		"linkTres":"",
 		"linkUmTres":""
 	},
@@ -82,30 +118,6 @@ new Vue({
 		"categoria":"Animais",
 		"desc":"Ração, desparasitante e medicação - Entregam em casa - 927 549 555 - 262 959 072",
 		"linkUm":"https://www.facebook.com/CVObidos/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/sandraloirinha.jpg",
-		"nome":"Sandra loirinha",
-		"categoria":"Outros",
-		"desc":"Verduras, horticulas, frutos, etc. Mensagem privada pelo Facebook",
-		"linkUm":"https://www.facebook.com/hortasdasandraepaulo/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/biosmercado.jpg",
-		"nome":"BiO's Mercado Biológico",
-		"categoria":"Outros",
-		"desc":"Verduras, horticulas, e mercearias alimentícias biologicas. Atendimento à porta. 917 832 582",
-		"linkUm":"https://www.facebook.com/BiOsCaldasRainha/",
 		"linkUmTxt":"Facebook",
 		"linkDois":"",
 		"linkDoisTxt":"",
@@ -346,6 +358,18 @@ new Vue({
 		"linkDoisTxt":"",
 		"linkTres":"",
 		"linkUmTres":""
+	},
+	{
+		"imagem":"img/drogariadascaldas.jpg",
+		"nome":"Drogaria das Caldas",
+		"categoria":"Outros",
+		"desc":"Drogaria com horário condicionado e que pode fazer entregas - 262 108 249",
+		"linkUm":"https://www.facebook.com/DrogariaDasCaldas/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":""
 	}
     ],
     ajuda: [
@@ -373,6 +397,18 @@ new Vue({
 		"linkTres":"",
 		"linkUmTres":""
 	},
+	 {
+      	"imagem":"img/wemendesbatas.jpg",
+		"nome":"Ajuda para os nossos profissionais de saúde.",
+		"categoria":"Ajuda",
+		"desc":"AJUDEM!Túnicas, batas e toucas para os nossos profissionais de saúde - 262 833 937",
+		"linkUm":"https://www.facebook.com/wemendessisters/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":""
+	}
    
     ],
         farmacias: [
@@ -588,6 +624,30 @@ new Vue({
 		"linkDoisTxt":"",
 		"linkTres":"",
 		"linkUmTres":""
+	},
+	{
+      	"imagem":"img/saboresditalia.jpg",
+		"nome":"Sabores D´Itália",
+		"categoria":"Comida em casa",
+		"desc":"Take away - 262 845 600",
+		"linkUm":"https://www.facebook.com/Restaurante-Sabores-dIt%C3%A1lia-139819609386055/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"saboresditalia.com",
+		"linkDoisTxt":"Site",
+		"linkTres":"",
+		"linkUmTres":""
+	},
+	{
+      	"imagem":"img/restaurantegirassol.jpg",
+		"nome":"Restaurante Girassol",
+		"categoria":"Comida em casa",
+		"desc":"Take away - 964 521 215",
+		"linkUm":"https://www.facebook.com/restaurantegirassolcaldasdarainha/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":""
 	}
 	
    
@@ -640,18 +700,6 @@ new Vue({
 		"desc":"Ideias bem interessantes para fazer com os miúdos.",
 		"linkUm":"https://www.facebook.com/tsurupsicologia/",
 		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-       "imagem":"img/cativar.jpg",
-		"nome":"O Reino Dó Ré Mi - Directo no instagram",
-		"categoria":"Para os mais novos",
-		"desc":"Teatro de fantoches - 21 de Março 17:00 - 17:30",
-		"linkUm":"https://www.instagram.com/cativarteatro/",
-		"linkUmTxt":"Instagram",
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
@@ -1034,6 +1082,30 @@ new Vue({
 		"desc":"Fact-Checking",
 		"linkUm":"https://poligrafo.sapo.pt/sociedade/artigos/coronavirus-as-24-fake-news-que-o-poligrafo-ja-revelou",
 		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":""
+	},
+	{
+      	"imagem":"img/avaliarsintomas.jpg",
+		"nome":"Avaliar Sintomas - Covid19",
+		"categoria":"Covid-19",
+		"desc":"Fact-Checking",
+		"linkUm":"https://www.sns24.gov.pt/avaliar-sintomas/?intro-sc=covid-19",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":""
+	},
+	{
+      	"imagem":"img/covid19duvidas.jpg",
+		"nome":"COVID19 dúvidas respondidas por profissionais de saúde",
+		"categoria":"Covid-19",
+		"desc":"Grupo do Facebook com profissionais de saúde que esclarecem dúvidas sobre o Covid-19.",
+		"linkUm":"https://www.facebook.com/groups/covid19duvidas/",
+		"linkUmTxt":"Grupo de Facebook",
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
