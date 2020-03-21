@@ -277,7 +277,7 @@ new Vue({
 	},
 	{
       	"imagem":"img/default.jpg",
-		"nome":"GRaíz D Oeste Talho Vitor Eustáquio",
+		"nome":"Raíz D Oeste Talho Vitor Eustáquio",
 		"categoria":"Outros",
 		"desc":"Talho, bebidas, mercearia fina, entrega em casa. 918 110 910 - raizdoeste@gmail.com",
 		"linkUm":"https://www.facebook.com/Ra%C3%ADz-D-Oeste-Talho-Vitor-Eust%C3%A1quio-2127081267341541/",
