@@ -114,6 +114,18 @@ new Vue({
 		"linkTresTxt":""
 	},
 	{
+		"imagem":"img/jardimcafe.jpg",
+		"nome":"Jardim Caffé",
+		"categoria":"Comida em casa",
+		"desc":"Take away - 937 270 965",
+		"linkUm":"https://www.facebook.com/Jardim-Caff%C3%A9-250086612527946/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
 		"imagem":"img/clinicaveterenariaobidos.jpg",
 		"nome":"Clínica Veterinária Óbidos",
 		"categoria":"Animais",
@@ -704,6 +716,18 @@ new Vue({
 		"categoria":"Comida em casa",
 		"desc":"Take away e entregas em casa - 913 890 113 - 937 450 983",
 		"linkUm":"https://www.facebook.com/oclockfozdoarelho/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/jardimcafe.jpg",
+		"nome":"Jardim Caffé",
+		"categoria":"Comida em casa",
+		"desc":"Take away - 937 270 965",
+		"linkUm":"https://www.facebook.com/Jardim-Caff%C3%A9-250086612527946/",
 		"linkUmTxt":"Facebook",
 		"linkDois":"",
 		"linkDoisTxt":"",
