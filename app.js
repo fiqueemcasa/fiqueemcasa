@@ -2,10 +2,10 @@ new Vue({
   el: '#app',
   data() {
   return {
-    time:  ['21 de Março 2020 - 17:53'],
-    destaques: [
-     {
-      	"imagem":"img/avaliarsintomas.jpg",
+	time:  ['21 de Março 2020 - 17:53'],
+	destaques: [
+	 {
+		"imagem":"img/avaliarsintomas.jpg",
 		"nome":"Avaliar Sintomas - Covid19",
 		"categoria":"Covid-19",
 		"desc":"Fact-Checking",
@@ -14,10 +14,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/covid19duvidas.jpg",
+		"imagem":"img/covid19duvidas.jpg",
 		"nome":"COVID19 dúvidas respondidas por profissionais de saúde",
 		"categoria":"Covid-19",
 		"desc":"Grupo do Facebook com profissionais de saúde que esclarecem dúvidas sobre o Covid-19.",
@@ -26,10 +26,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
-    {
-      	"imagem":"img/vamosnos.jpg",
+	{
+		"imagem":"img/vamosnos.jpg",
 		"nome":"Vamos nÓs por si",
 		"categoria":"Ajuda",
 		"desc":"Óbidos, mais de 65 anos, doentes crónicos. Supermercado, Farmácia - Espaço Ó - 912 268 168 - Precisam-se voluntários",
@@ -38,10 +38,10 @@ new Vue({
 		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
 		"linkDoisTxt":"Voluntários",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/wemendesbatas.jpg",
+		"imagem":"img/wemendesbatas.jpg",
 		"nome":"Ajuda para os nossos profissionais de saúde.",
 		"categoria":"Ajuda",
 		"desc":"AJUDEM!Túnicas, batas e toucas para os nossos profissionais de saúde - 262 833 937",
@@ -50,22 +50,23 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/saboresditalia.jpg",
-		"nome":"Sabores D´Itália",
-		"categoria":"Comida em casa",
-		"desc":"Take away - 262 845 600",
-		"linkUm":"https://www.facebook.com/Restaurante-Sabores-dIt%C3%A1lia-139819609386055/",
+		"imagem":"img/merceariazen.jpg",
+		"nome":"Mercearia Zen",
+		"categoria":"Mercearia",
+		"desc":"Minimercado, frutas, legumes, mercearia, peixe congelado e chás. Super alimentos. Entrega em casa ou drive-thru. 916 830 665",
+		"linkUm":"https://www.facebook.com/MerceariaZen/",
 		"linkUmTxt":"Facebook",
-		"linkDois":"saboresditalia.com",
-		"linkDoisTxt":"Site",
-		"linkTres":"",
-		"linkUmTres":""
+		"linkDois":"mailto:zennarius@gmail.com",
+		"linkDoisTxt":"Email",
+		"linkTres":"https://www.instagram.com/merceariazen/",
+		"linkTresTxt":"Instagram"
 	},
+
 	 {
-      	"imagem":"img/papelariavogal.jpg",
+		"imagem":"img/papelariavogal.jpg",
 		"nome":"Papelaria Vogal",
 		"categoria":"Papelaria",
 		"desc":"Compras online com entrega em casa ou levantamento na papelaria.",
@@ -74,10 +75,10 @@ new Vue({
 		"linkDois":"https://www.facebook.com/vogal.papelariatecnica/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/mereceariapena.jpg",
+		"imagem":"img/mereceariapena.jpg",
 		"nome":"Mercearia Pena",
 		"categoria":"Minimercados",
 		"desc":"Entrega em casa - 262 832 580",
@@ -86,10 +87,10 @@ new Vue({
 		"linkDois":"https://www.facebook.com/mercearia.pena/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/crossfitlusiadas.jpg",
+		"imagem":"img/crossfitlusiadas.jpg",
 		"nome":"CrossFit Lusíadas",
 		"categoria":"Fitness",
 		"desc":"HOME WOD's diários.",
@@ -98,22 +99,22 @@ new Vue({
 		"linkDois":"https://www.facebook.com/crossfitlusiadas/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/tibino.jpg",
-		"nome":"Tibino casa de petiscos",
+		"imagem":"img/oclock.jpg",
+		"nome":"O’Clock Foz do Arelho",
 		"categoria":"Comida em casa",
-		"desc":"Take away - 262 979 047",
-		"linkUm":"https://www.facebook.com/Tibino.petisco/s",
+		"desc":"Take away e entregas em casa - 913 890 113 - 937 450 983",
+		"linkUm":"https://www.facebook.com/oclockfozdoarelho/",
 		"linkUmTxt":"Facebook",
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/clinicaveterenariaobidos.jpg",
+		"imagem":"img/clinicaveterenariaobidos.jpg",
 		"nome":"Clínica Veterinária Óbidos",
 		"categoria":"Animais",
 		"desc":"Ração, desparasitante e medicação - Entregam em casa - 927 549 555 - 262 959 072",
@@ -122,10 +123,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/farmaciaalvorinha.jpg",
+		"imagem":"img/farmaciaalvorinha.jpg",
 		"nome":"Farmácia de Alvorninha",
 		"categoria":"Farmácias",
 		"desc":"Entrega em casa 262 930 706 - farmacia.alvorninha@gmail.com",
@@ -134,182 +135,7 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/beeorganic.jpg",
-		"nome":"Beeorganic",
-		"categoria":"Outros",
-		"desc":"Hortícolas de origem biológica – Ponto de entrega - 918 363 507",
-		"linkUm":"https://www.facebook.com/beeorganic.pt/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"http://beeorganic.pt/",
-		"linkDoisTxt":"Site",
-		"linkTres":"",
-		"linkUmTres":""
-	}
-
-    ],
-    hipermercados: [
-      {
-      	"imagem":"img/continente.png",
-		"nome":"Continente online",
-		"categoria":"Hipermercado",
-		"desc":"Compras online e entrega em casa.",
-		"linkUm":"https://www.continente.pt/",
-		"linkUmTxt":"Site",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	 {
-      	"imagem":"img/elecrerc.jpg",
-		"nome":"E.Lecrerc online",
-		"categoria":"Hipermercado",
-		"desc":"Compras online e entrega no drive in. O site está muito lento.",
-		"linkUm":"https://www.e-leclerc.pt/",
-		"linkUmTxt":"Site",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	 {
-      	"imagem":"img/auchan.gif",
-		"nome":"Auchan online",
-		"categoria":"Hipermercado",
-		"desc":"Compras online e entrega em casa. Existe uma fila de espera de uma hora para entrar no site.",
-		"linkUm":"https://www.auchan.pt/",
-		"linkUmTxt":"Site",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/dott.png",
-		"nome":"Dott",
-		"categoria":"Hipermercado",
-		"desc":"Compras online e entrega em casa.",
-		"linkUm":"https://dott.pt/pt/campaign/envios-gratuitos-bens-essenciais",
-		"linkUmTxt":"Site",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	}
-   
-
-    ],
-    minimercados: [
-      {
-      	"imagem":"img/mereceariapena.jpg",
-		"nome":"Mercearia Pena",
-		"categoria":"Minimercados",
-		"desc":"Entrega em casa - 262 832 580",
-		"linkUm":"https://www.merceariapena.pt/",
-		"linkUmTxt":"Site",
-		"linkDois":"https://www.facebook.com/mercearia.pena/",
-		"linkDoisTxt":"Facebook",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	 {
-      	"imagem":"img/aloja.jpg",
-		"nome":"A loja",
-		"categoria":"Minimercados",
-		"desc":"Entrega em casa",
-		"linkUm":"https://www.facebook.com/A-Loja-333106493857374/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	 {
-      	"imagem":"img/bancadacristina.jpg",
-		"nome":"Banca da Cristina",
-		"categoria":"Minimercados",
-		"desc":"Contactar a página por MP.",
-		"linkUm":"https://www.facebook.com/bancadacristina/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/gelrainha.jpg",
-		"nome":"Gelrainha",
-		"categoria":"Outros",
-		"desc":"Entrega em casa.",
-		"linkUm":"https://www.facebook.com/336596157004472/posts/507739116556841/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/graneldarainha.jpg",
-		"nome":"Granel da Rainha",
-		"categoria":"Outros",
-		"desc":"Entrega em casa por correio.",
-		"linkUm":"https://www.facebook.com/rainhagranel/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/default.jpg",
-		"nome":"Gaeiroeste",
-		"categoria":"Outros",
-		"desc":"Carnes frescas e congeladas. Congelados de: bacalhau, peixe, crustáceos, salgados e bolos. 932 299 133",
-		"linkUm":"https://www.facebook.com/gaeiroeste.ramos.9",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/default.jpg",
-		"nome":"Raíz D Oeste Talho Vitor Eustáquio",
-		"categoria":"Outros",
-		"desc":"Talho, bebidas, mercearia fina, entrega em casa. 918 110 910 - raizdoeste@gmail.com",
-		"linkUm":"https://www.facebook.com/Ra%C3%ADz-D-Oeste-Talho-Vitor-Eust%C3%A1quio-2127081267341541/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"mailto:raizdoeste@gmail.com",
-		"linkDoisTxt":"Email",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/hortapedescalco.jpg",
-		"nome":"Horta do Pé Descalço",
-		"categoria":"Outros",
-		"desc":"Hortícolas, entregam em casa.",
-		"linkUm":"https://www.facebook.com/hortadopedescalco/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
-	},
-	{
-      	"imagem":"img/default.jpg",
-		"nome":"Gilma Trancoso",
-		"categoria":"Outros",
-		"desc":"Hortícolas, entregam em casa. Encomendas: 926 075 187",
-		"linkUm":"https://www.facebook.com/gilma.trancoso",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
 		"imagem":"img/beeorganic.jpg",
@@ -321,7 +147,182 @@ new Vue({
 		"linkDois":"http://beeorganic.pt/",
 		"linkDoisTxt":"Site",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
+	}
+
+	],
+	hipermercados: [
+	  {
+		"imagem":"img/continente.png",
+		"nome":"Continente online",
+		"categoria":"Hipermercado",
+		"desc":"Compras online e entrega em casa.",
+		"linkUm":"https://www.continente.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	 {
+		"imagem":"img/elecrerc.jpg",
+		"nome":"E.Lecrerc online",
+		"categoria":"Hipermercado",
+		"desc":"Compras online e entrega no drive in. O site está muito lento.",
+		"linkUm":"https://www.e-leclerc.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	 {
+		"imagem":"img/auchan.gif",
+		"nome":"Auchan online",
+		"categoria":"Hipermercado",
+		"desc":"Compras online e entrega em casa. Existe uma fila de espera de uma hora para entrar no site.",
+		"linkUm":"https://www.auchan.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/dott.png",
+		"nome":"Dott",
+		"categoria":"Hipermercado",
+		"desc":"Compras online e entrega em casa.",
+		"linkUm":"https://dott.pt/pt/campaign/envios-gratuitos-bens-essenciais",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	}
+   
+
+	],
+	minimercados: [
+	  {
+		"imagem":"img/mereceariapena.jpg",
+		"nome":"Mercearia Pena",
+		"categoria":"Minimercados",
+		"desc":"Entrega em casa - 262 832 580",
+		"linkUm":"https://www.merceariapena.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"https://www.facebook.com/mercearia.pena/",
+		"linkDoisTxt":"Facebook",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	 {
+		"imagem":"img/aloja.jpg",
+		"nome":"A loja",
+		"categoria":"Minimercados",
+		"desc":"Entrega em casa",
+		"linkUm":"https://www.facebook.com/A-Loja-333106493857374/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	 {
+		"imagem":"img/bancadacristina.jpg",
+		"nome":"Banca da Cristina",
+		"categoria":"Minimercados",
+		"desc":"Contactar a página por MP.",
+		"linkUm":"https://www.facebook.com/bancadacristina/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/gelrainha.jpg",
+		"nome":"Gelrainha",
+		"categoria":"Outros",
+		"desc":"Entrega em casa.",
+		"linkUm":"https://www.facebook.com/336596157004472/posts/507739116556841/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/graneldarainha.jpg",
+		"nome":"Granel da Rainha",
+		"categoria":"Outros",
+		"desc":"Entrega em casa por correio.",
+		"linkUm":"https://www.facebook.com/rainhagranel/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/default.jpg",
+		"nome":"Gaeiroeste",
+		"categoria":"Outros",
+		"desc":"Carnes frescas e congeladas. Congelados de: bacalhau, peixe, crustáceos, salgados e bolos. 932 299 133",
+		"linkUm":"https://www.facebook.com/gaeiroeste.ramos.9",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/default.jpg",
+		"nome":"Raíz D Oeste Talho Vitor Eustáquio",
+		"categoria":"Outros",
+		"desc":"Talho, bebidas, mercearia fina, entrega em casa. 918 110 910 - raizdoeste@gmail.com",
+		"linkUm":"https://www.facebook.com/Ra%C3%ADz-D-Oeste-Talho-Vitor-Eust%C3%A1quio-2127081267341541/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"mailto:raizdoeste@gmail.com",
+		"linkDoisTxt":"Email",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/hortapedescalco.jpg",
+		"nome":"Horta do Pé Descalço",
+		"categoria":"Outros",
+		"desc":"Hortícolas, entregam em casa.",
+		"linkUm":"https://www.facebook.com/hortadopedescalco/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/default.jpg",
+		"nome":"Gilma Trancoso",
+		"categoria":"Outros",
+		"desc":"Hortícolas, entregam em casa. Encomendas: 926 075 187",
+		"linkUm":"https://www.facebook.com/gilma.trancoso",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/beeorganic.jpg",
+		"nome":"Beeorganic",
+		"categoria":"Outros",
+		"desc":"Hortícolas de origem biológica – Ponto de entrega - 918 363 507",
+		"linkUm":"https://www.facebook.com/beeorganic.pt/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"http://beeorganic.pt/",
+		"linkDoisTxt":"Site",
+		"linkTres":"",
+		"linkTresTxt":""
 	},
 	{
 		"imagem":"img/biosmercado.jpg",
@@ -333,7 +334,7 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
 		"imagem":"img/osprodutosdaquinta.jpg",
@@ -345,7 +346,7 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
 		"imagem":"img/sandraloirinha.jpg",
@@ -357,7 +358,7 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
 		"imagem":"img/drogariadascaldas.jpg",
@@ -369,12 +370,24 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/merceariazen.jpg",
+		"nome":"Mercearia Zen",
+		"categoria":"Mercearia",
+		"desc":"Minimercado, frutas, legumes, mercearia, peixe congelado e chás. Super alimentos. Entrega em casa ou drive-thru. 916 830 665",
+		"linkUm":"https://www.facebook.com/MerceariaZen/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"mailto:zennarius@gmail.com",
+		"linkDoisTxt":"Email",
+		"linkTres":"https://www.instagram.com/merceariazen/",
+		"linkTresTxt":"Instagram"
 	}
-    ],
-    ajuda: [
-      {
-      	"imagem":"img/vamosnos.jpg",
+	],
+	ajuda: [
+	  {
+		"imagem":"img/vamosnos.jpg",
 		"nome":"Vamos nÓs por si",
 		"categoria":"Ajuda",
 		"desc":"Óbidos, mais de 65 anos, doentes crónicos. Supermercado, Farmácia - Espaço Ó - 912 268 168 - Precisam-se voluntários",
@@ -383,10 +396,10 @@ new Vue({
 		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
 		"linkDoisTxt":"Voluntários",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/ordempsi.jpg",
+		"imagem":"img/ordempsi.jpg",
 		"nome":"Ordem dos Psicólogos Portugueses",
 		"categoria":"Ajuda",
 		"desc":"Recomendações da Ordem de Psicológicos Portugueses",
@@ -395,10 +408,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/wemendesbatas.jpg",
+		"imagem":"img/wemendesbatas.jpg",
 		"nome":"Ajuda para os nossos profissionais de saúde.",
 		"categoria":"Ajuda",
 		"desc":"AJUDEM!Túnicas, batas e toucas para os nossos profissionais de saúde - 262 833 937",
@@ -407,13 +420,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
    
-    ],
-        farmacias: [
-      {
-      	"imagem":"img/vamosnos.jpg",
+	],
+		farmacias: [
+	  {
+		"imagem":"img/vamosnos.jpg",
 		"nome":"Vamos nÓs por si",
 		"categoria":"Ajuda",
 		"desc":"Óbidos, mais de 65 anos, doentes crónicos. Supermercado, Farmácia - Espaço Ó - 912 268 168 - Precisam-se voluntários",
@@ -422,10 +435,10 @@ new Vue({
 		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
 		"linkDoisTxt":"Voluntários",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/ordempsi.jpg",
+		"imagem":"img/ordempsi.jpg",
 		"nome":"Ordem dos Psicólogos Portugueses",
 		"categoria":"Ajuda",
 		"desc":"Recomendações da Ordem de Psicológicos Portugueses",
@@ -434,13 +447,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
    
-    ],
-    farmacias: [
-      {
-      	"imagem":"img/vamosnos.jpg",
+	],
+	farmacias: [
+	  {
+		"imagem":"img/vamosnos.jpg",
 		"nome":"Vamos nÓs por si",
 		"categoria":"Ajuda",
 		"desc":"Óbidos, mais de 65 anos, doentes crónicos. Supermercado, Farmácia - Espaço Ó - 912 268 168 - Precisam-se voluntários",
@@ -449,10 +462,10 @@ new Vue({
 		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
 		"linkDoisTxt":"Voluntários",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/ordempsi.jpg",
+		"imagem":"img/ordempsi.jpg",
 		"nome":"Ordem dos Psicólogos Portugueses",
 		"categoria":"Ajuda",
 		"desc":"Recomendações da Ordem de Psicológicos Portugueses",
@@ -461,13 +474,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
    
-    ],
-    farmacias: [
-      {
-      	"imagem":"img/farmaciaalvorinha.jpg",
+	],
+	farmacias: [
+	  {
+		"imagem":"img/farmaciaalvorinha.jpg",
 		"nome":"Farmácia de Alvorninha",
 		"categoria":"Farmácias",
 		"desc":"Entrega em casa 262 930 706 - farmacia.alvorninha@gmail.com",
@@ -476,10 +489,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/farmaciasenhoraajuda.jpg",
+		"imagem":"img/farmaciasenhoraajuda.jpg",
 		"nome":"Farmácia Senhora da Ajuda - Gaeiras",
 		"categoria":"Farmácias",
 		"desc":"Entrega em casa 262 958 637 - 960 173 114(WhatsApp) - fsajuda@gmail.com",
@@ -488,10 +501,10 @@ new Vue({
 		"linkDois":"https://www.facebook.com/fsajuda/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/farmaciarosa.jpg",
+		"imagem":"img/farmaciarosa.jpg",
 		"nome":"Farmácia Rosa",
 		"categoria":"Farmácias",
 		"desc":"Entrega em casa. 262 831 996 - 915 702 242(WhatsApp) - farmacia.rosa@correiarosa.pt",
@@ -500,10 +513,10 @@ new Vue({
 		"linkDois":"https://www.facebook.com/farmaciarosacaldasdarainha/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/farmaciasantacatarina.jpg",
+		"imagem":"img/farmaciasantacatarina.jpg",
 		"nome":"Farmácia Santa Catarina",
 		"categoria":"Farmácias",
 		"desc":"Entrega em casa. 262 831 996 - 915 702 242(WhatsApp) - farmacia.rosa@correiarosa.pt",
@@ -512,10 +525,10 @@ new Vue({
 		"linkDois":"https://www.facebook.com/farmaciasantcatarina/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/farmaciaoliveira.jpg",
+		"imagem":"img/farmaciaoliveira.jpg",
 		"nome":"Farmácia Oliveira - Óbidos",
 		"categoria":"Farmácias",
 		"desc":"Encomendas por telefone e levantamento na farmácia 262 959 198",
@@ -524,10 +537,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/farmaciafozdoarelho.jpg",
+		"imagem":"img/farmaciafozdoarelho.jpg",
 		"nome":"Farmácia Foz do Arelho",
 		"categoria":"Farmácias",
 		"desc":"Encomendas por telefone e levantamento na farmácia 262 979 229",
@@ -536,13 +549,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
    
-    ],
-    comidaemcasa: [
-      {
-      	"imagem":"img/chefsemcasa.jpg",
+	],
+	comidaemcasa: [
+	  {
+		"imagem":"img/chefsemcasa.jpg",
 		"nome":"FChefs em Casa",
 		"categoria":"Comida em casa",
 		"desc":"Entrega em casa, pequeno almoço, almoço, jantar e entrega compras. 917 824 821 / 300 505 15",
@@ -551,10 +564,10 @@ new Vue({
 		"linkDois":"https://chefs-em-casa.pt/",
 		"linkDoisTxt":"Site",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/funky.jpg",
+		"imagem":"img/funky.jpg",
 		"nome":"Funky SushiBar",
 		"categoria":"Comida em casa",
 		"desc":"Entrega em casa através dos Chefs em casa. Tem take away. 918 159 601",
@@ -563,10 +576,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/leef.jpg",
+		"imagem":"img/leef.jpg",
 		"nome":"Leef",
 		"categoria":"Comida em casa",
 		"desc":"Entrega em casa.",
@@ -575,10 +588,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/novomundo.jpg",
+		"imagem":"img/novomundo.jpg",
 		"nome":"Pizzeria Novo Mundo",
 		"categoria":"Comida em casa",
 		"desc":"Entrega em casa - 262 842 969 - (Fechado até dia 1 de Abril)",
@@ -587,10 +600,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/telepizza.jpg",
+		"imagem":"img/telepizza.jpg",
 		"nome":"Telepizza",
 		"categoria":"Comida em casa",
 		"desc":"Entrega em casa - 262 823 212",
@@ -599,10 +612,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/mrpizza.jpg",
+		"imagem":"img/mrpizza.jpg",
 		"nome":"Mr. Pizza",
 		"categoria":"Comida em casa",
 		"desc":"Entrega em casa - 262 838 999",
@@ -611,10 +624,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/tibino.jpg",
+		"imagem":"img/tibino.jpg",
 		"nome":"Tibino casa de petiscos",
 		"categoria":"Comida em casa",
 		"desc":"Take away - 262 979 047",
@@ -623,10 +636,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/saboresditalia.jpg",
+		"imagem":"img/saboresditalia.jpg",
 		"nome":"Sabores D´Itália",
 		"categoria":"Comida em casa",
 		"desc":"Take away - 262 845 600",
@@ -635,10 +648,10 @@ new Vue({
 		"linkDois":"saboresditalia.com",
 		"linkDoisTxt":"Site",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/restaurantegirassol.jpg",
+		"imagem":"img/restaurantegirassol.jpg",
 		"nome":"Restaurante Girassol",
 		"categoria":"Comida em casa",
 		"desc":"Take away - 964 521 215",
@@ -647,14 +660,26 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/oclock.jpg",
+		"nome":"O’Clock Foz do Arelho",
+		"categoria":"Comida em casa",
+		"desc":"Take away e entregas em casa - 913 890 113 - 937 450 983",
+		"linkUm":"https://www.facebook.com/oclockfozdoarelho/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
 	}
 	
    
-    ],
-     animais: [
-      {
-      	"imagem":"img/clinicaveterenariaobidos.jpg",
+	],
+	 animais: [
+	  {
+		"imagem":"img/clinicaveterenariaobidos.jpg",
 		"nome":"Clínica Veterinária Óbidos",
 		"categoria":"Animais",
 		"desc":"Ração, desparasitante e medicação - Entregam em casa - 927 549 555 - 262 959 072",
@@ -663,14 +688,14 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
 
-    ],
-     paraosmaisnovos: [
-      {
-      	"imagem":"img/escolavirtual.jpg",
+	],
+	 paraosmaisnovos: [
+	  {
+		"imagem":"img/escolavirtual.jpg",
 		"nome":"Escola Virtual - Porto Editora",
 		"categoria":"Para os mais novos",
 		"desc":"Aulas gratuitas. (Óptimo se for em articulação com o professor)",
@@ -679,10 +704,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/auladigital.jpg",
+		"imagem":"img/auladigital.jpg",
 		"nome":"Aula Digital - Leya",
 		"categoria":"Para os mais novos",
 		"desc":"Aulas gratuitas. (Óptimo se for em articulação com o professor)",
@@ -691,10 +716,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/tsuru.jpg",
+		"imagem":"img/tsuru.jpg",
 		"nome":"Tsuru - Centro de Psicologia e Aprendizagema",
 		"categoria":"Para os mais novos",
 		"desc":"Ideias bem interessantes para fazer com os miúdos.",
@@ -703,10 +728,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/rtpensina.jpg",
+	   "imagem":"img/rtpensina.jpg",
 		"nome":"RTP - Ensina Júnior",
 		"categoria":"Para os mais novos",
 		"desc":"Milhares de conteúdos audiovisuais de acesso livre",
@@ -715,10 +740,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/profeladiogouveia.jpg",
+	   "imagem":"img/profeladiogouveia.jpg",
 		"nome":"Professor Eládio Gouveia",
 		"categoria":"Aulas 2º ano",
 		"desc":"O Professor Eládio Gouveia não baixou os braços, parabéns! Grava videos para os seus alunos de 2º ano.",
@@ -727,10 +752,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/estacaodasletras.jpg",
+	   "imagem":"img/estacaodasletras.jpg",
 		"nome":"Estação das letras",
 		"categoria":"Para os mais novos",
 		"desc":"Partilha histórias diárias para crianças de todas as idades.",
@@ -739,10 +764,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/nomeusacodehistorias.jpg",
+	   "imagem":"img/nomeusacodehistorias.jpg",
 		"nome":"No meu saco de histórias",
 		"categoria":"Para os mais novos",
 		"desc":"Em directo todos os dias.",
@@ -751,10 +776,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/bibliotecapnl.jpg",
+	   "imagem":"img/bibliotecapnl.jpg",
 		"nome":"Biblioteca PNL",
 		"categoria":"Para os mais novos",
 		"desc":"Biblioteca do plano nacional de leitura com livros digitais.",
@@ -763,10 +788,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/escolamagica.jpg",
+	   "imagem":"img/escolamagica.jpg",
 		"nome":"Escola Mágica",
 		"categoria":"Para os mais novos",
 		"desc":"Plataforma de potencia a aprendizagem de crianças do 1º ao 3º ciclo.",
@@ -775,10 +800,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/khanacademy.jpg",
+	   "imagem":"img/khanacademy.jpg",
 		"nome":"Khan Academy",
 		"categoria":"Para os mais novos",
 		"desc":"Exercícios interactivos para todas as idades.",
@@ -787,10 +812,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/projectadamastor.jpg",
+	   "imagem":"img/projectadamastor.jpg",
 		"nome":"Projecto Adamastor",
 		"categoria":"Para os mais novos",
 		"desc":"Biblioteca digital.",
@@ -799,10 +824,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-       "imagem":"img/ascancoesdamaria.jpg",
+	   "imagem":"img/ascancoesdamaria.jpg",
 		"nome":"As Canções da Maria",
 		"categoria":"Para os mais novos",
 		"desc":"Canções para os mais novos ouvirem e aprenderem.",
@@ -811,13 +836,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
-    ],
-     entretenimento: [
-     {
-      	"imagem":"img/fm2020.jpg",
+	],
+	 entretenimento: [
+	 {
+		"imagem":"img/fm2020.jpg",
 		"nome":"Footbal Manager 2020",
 		"categoria":"Entretenimento",
 		"desc":"Jogo gratuito.",
@@ -826,10 +851,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/euficoemcasa.jpg",
+		"imagem":"img/euficoemcasa.jpg",
 		"nome":"Festival Fora de casa",
 		"categoria":"Entretenimento",
 		"desc":"Espectáculos gratuitos.",
@@ -838,10 +863,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/rtpensina.jpg",
+		"imagem":"img/rtpensina.jpg",
 		"nome":"RTP - Ensina",
 		"categoria":"Entretenimento",
 		"desc":"Milhares de conteúdos audiovisuais de acesso livre",
@@ -850,10 +875,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/medeiafilmes.jpg",
+		"imagem":"img/medeiafilmes.jpg",
 		"nome":"Medeia Filmes",
 		"categoria":"Entretenimento",
 		"desc":"Quarentena cinéfila com a Medeia Filmes.",
@@ -862,10 +887,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/nga.jpg",
+		"imagem":"img/nga.jpg",
 		"nome":"National Gallery of Art, EUA",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -874,10 +899,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/vaticano.jpg",
+		"imagem":"img/vaticano.jpg",
 		"nome":"Museu do Vaticano",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -886,10 +911,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/nam.jpg",
+		"imagem":"img/nam.jpg",
 		"nome":"National Archaeological Museum, Grécia",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -898,10 +923,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/prado.jpg",
+		"imagem":"img/prado.jpg",
 		"nome":"Museo del Prado",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -910,10 +935,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/louvre.jpg",
+		"imagem":"img/louvre.jpg",
 		"nome":"Musée du Louvre",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -922,10 +947,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/britishmuseu.jpg",
+		"imagem":"img/britishmuseu.jpg",
 		"nome":"The British Museum",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -934,10 +959,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/hermitage.jpg",
+		"imagem":"img/hermitage.jpg",
 		"nome":"The Hermitage Museum, Rússia",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -946,10 +971,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/brera.jpg",
+		"imagem":"img/brera.jpg",
 		"nome":"Pinacoteca de Brera, Itália",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -958,10 +983,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/uffizi.jpg",
+		"imagem":"img/uffizi.jpg",
 		"nome":"Galleria Delgi Uffizi, Itália",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -970,10 +995,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/metropolitan.jpg",
+		"imagem":"img/metropolitan.jpg",
 		"nome":"The Metropolitan Museum of Art, EUA",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -982,10 +1007,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/guggen.jpg",
+		"imagem":"img/guggen.jpg",
 		"nome":"Museu Solomon R. Guggenheim, EUA",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -994,10 +1019,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/dali.jpg",
+		"imagem":"img/dali.jpg",
 		"nome":"Teatro-Museu Dalí, Espanha",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -1006,10 +1031,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/fridakahlo.jpg",
+		"imagem":"img/fridakahlo.jpg",
 		"nome":"Exposição interactiva de Frida Kahlo",
 		"categoria":"Entretenimento",
 		"desc":"Visita virtual ao museu.",
@@ -1018,14 +1043,14 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
 
-    ],
-    tecnologia: [
-      {
-      	"imagem":"img/pcdiga.jpg",
+	],
+	tecnologia: [
+	  {
+		"imagem":"img/pcdiga.jpg",
 		"nome":"Pcdiga online",
 		"categoria":"Tecnologia",
 		"desc":"Entregas até 30kg.",
@@ -1034,13 +1059,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
-    ],
-     infocovid19: [
-      {
-      	"imagem":"img/dgs.jpg",
+	],
+	 infocovid19: [
+	  {
+		"imagem":"img/dgs.jpg",
 		"nome":"Covid-19 - DGS",
 		"categoria":"Covid-19",
 		"desc":"Informações oficiais",
@@ -1049,10 +1074,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/dgs.jpg",
+		"imagem":"img/dgs.jpg",
 		"nome":"Covid19 em Portugal - Dados DGS",
 		"categoria":"Covid-19",
 		"desc":"Informações oficiais",
@@ -1061,10 +1086,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/estamoson.jpg",
+		"imagem":"img/estamoson.jpg",
 		"nome":"Não paramos #ESTAMOSON - DGS",
 		"categoria":"Covid-19",
 		"desc":"Informações oficiais",
@@ -1073,10 +1098,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/poligrafo.jpg",
+		"imagem":"img/poligrafo.jpg",
 		"nome":"24 Fake news que o Polígrafo revelou",
 		"categoria":"Covid-19",
 		"desc":"Fact-Checking",
@@ -1085,10 +1110,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/avaliarsintomas.jpg",
+		"imagem":"img/avaliarsintomas.jpg",
 		"nome":"Avaliar Sintomas - Covid19",
 		"categoria":"Covid-19",
 		"desc":"Fact-Checking",
@@ -1097,10 +1122,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/covid19duvidas.jpg",
+		"imagem":"img/covid19duvidas.jpg",
 		"nome":"COVID19 dúvidas respondidas por profissionais de saúde",
 		"categoria":"Covid-19",
 		"desc":"Grupo do Facebook com profissionais de saúde que esclarecem dúvidas sobre o Covid-19.",
@@ -1109,13 +1134,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
-    ],
-     fitness: [
-      {
-      	"imagem":"img/crossfitlusiadas.jpg",
+	],
+	 fitness: [
+	  {
+		"imagem":"img/crossfitlusiadas.jpg",
 		"nome":"CrossFit Lusíadas",
 		"categoria":"Fitness",
 		"desc":"HOME WOD's diários.",
@@ -1124,10 +1149,10 @@ new Vue({
 		"linkDois":"https://www.facebook.com/crossfitlusiadas/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/quarentraining.jpg",
+		"imagem":"img/quarentraining.jpg",
 		"nome":"Covid19 em Portugal - Dados DGS",
 		"categoria":"Fitness",
 		"desc":"Vídeos de Fitness",
@@ -1136,13 +1161,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
-    ],
-      actividades: [
-      {
-      	"imagem":"img/default.jpg",
+	],
+	  actividades: [
+	  {
+		"imagem":"img/default.jpg",
 		"nome":"Fazer pipocas doces em família",
 		"categoria":"Actividades",
 		"desc":"Vídeo",
@@ -1151,10 +1176,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/default.jpg",
+		"imagem":"img/default.jpg",
 		"nome":"Verificação do transporte dos alimentos nas plantas",
 		"categoria":"Actividades",
 		"desc":"Experiência",
@@ -1163,10 +1188,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	 {
-      	"imagem":"img/default.jpg",
+		"imagem":"img/default.jpg",
 		"nome":"Construir um carro com uma garrafa de plástico",
 		"categoria":"Actividades",
 		"desc":"Vídeo",
@@ -1175,10 +1200,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+		"imagem":"img/default.jpg",
 		"nome":"Realizar algumas experiências com água",
 		"categoria":"Actividades",
 		"desc":"Vídeo",
@@ -1187,10 +1212,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/default.jpg",
+		"imagem":"img/default.jpg",
 		"nome":"Construir um telefone",
 		"categoria":"Actividades",
 		"desc":"Vídeo",
@@ -1199,10 +1224,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/moma.jpg",
+		"imagem":"img/moma.jpg",
 		"nome":"6 cursos de Arte - MoMA",
 		"categoria":"Actividades",
 		"desc":"Vídeo",
@@ -1211,13 +1236,13 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
-    ],
-     papelaria: [
-      {
-      	"imagem":"img/papelariavogal.jpg",
+	],
+	 papelaria: [
+	  {
+		"imagem":"img/papelariavogal.jpg",
 		"nome":"Papelaria Vogal",
 		"categoria":"Papelaria",
 		"desc":"Compras online com entrega em casa ou levantamento na papelaria.",
@@ -1226,14 +1251,14 @@ new Vue({
 		"linkDois":"https://www.facebook.com/vogal.papelariatecnica/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
 
-    ],
-     apps: [
-      {
-      	"imagem":"img/houseparty.jpg",
+	],
+	 apps: [
+	  {
+		"imagem":"img/houseparty.jpg",
 		"nome":"Houseparty iOS",
 		"categoria":"Apps",
 		"desc":"O Houseparty é a rede social cara-a-cara onde se pode conectar com as pessoas de quem mais gosta.",
@@ -1242,10 +1267,10 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	},
 	{
-      	"imagem":"img/houseparty.jpg",
+		"imagem":"img/houseparty.jpg",
 		"nome":"Houseparty Android",
 		"categoria":"Apps",
 		"desc":"O Houseparty é a rede social cara-a-cara onde se pode conectar com as pessoas de quem mais gosta.",
@@ -1254,11 +1279,11 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkUmTres":""
+		"linkTresTxt":""
 	}
 	
 
-    ]
+	]
   }
 }
  
