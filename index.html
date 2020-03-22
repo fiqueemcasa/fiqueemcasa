@@ -58,6 +58,7 @@
 	<link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/website-theme.css">
 	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap-drawer.min.css">
 
 	
 	</head>
@@ -161,6 +162,7 @@
 					<div class="col-12 text-center text-light mt-3">
 						<p><span class="badge badge-dark p-2">Última actualização: 22 de Março 2020 - 13:13</span></p>
 						<a class="btn btn-primary btn-lg" href="mailto:emcasafique@gmail.com" role="button">Envie sugestões</a>
+						<a class="btn btn-primary btn-lg" role="button" data-toggle="drawer" data-target="#drawer-demo">Info DGS</a>
 					</div>
 				</div>
 			</div>
@@ -772,20 +774,28 @@
 		</div>
 
 
-<!-- teste de vue -->
-	
-
-		
+		<!-- DRAWER -->
 		<!--
-		<button v-on:click="isHidden = true">Caldas</button>
-		<button v-on:click="isHidden = false">Nacional</button>
+		<button type="button" class="btn btn-primary" data-toggle="drawer" data-target="#drawer-demo">
+		  Info
+		</button>
+		-->
 
-		<button v-on:click="isHidden = !isHidden">Toggle hide and show</button>
-		  
-		<h1 v-if="!isHidden">Nacional</h1>
-		<h1 v-if="isHidden">Caldas da Rainha</h1>
-	-->
-		<!-- fim de teste de vue -->
+		<div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-demo-title" aria-hidden="true" id="drawer-demo">
+		  <div class="drawer-content drawer-content-scrollable" role="document">
+		      <div class="drawer-header">
+		        <h4 class="drawer-title" id="drawer-demo-title">
+		        	Informações DGS
+		        	<a class="fa fa-times float-right" data-dismiss="drawer" aria-label="Close"></a>
+		        </h4>
+		      </div>
+		      <div class="drawer-body" style="overflow-y: initial;">
+		        <a class="twitter-timeline" data-lang="pt" data-theme="light" href="https://twitter.com/DGSaude?ref_src=twsrc%5Etfw">Tweets by DGSaude</a> 
+		      </div>
+		      <div class="drawer-footer">Fique em casa!!!</div>
+		  </div>
+		</div>
+
 	
 </div><!-- fim de app vue -->
 		
@@ -797,7 +807,9 @@
 		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
 		<script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+		<script src="js/bootstrap-drawer.min.js"></script>
 		<script src="app.js"></script>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 		<script>
 		$('.destaques').slick({
