@@ -77,17 +77,17 @@ new Vue({
 		"linkTres":"",
 		"linkTresTxt":""
 	},
-	{
-		"imagem":"img/mereceariapena.jpg",
-		"nome":"Mercearia Pena",
-		"categoria":"Minimercados",
-		"desc":"Entrega em casa - 262 832 580",
-		"linkUm":"https://www.merceariapena.pt/",
-		"linkUmTxt":"Site",
-		"linkDois":"https://www.facebook.com/mercearia.pena/",
-		"linkDoisTxt":"Facebook",
-		"linkTres":"",
-		"linkTresTxt":""
+	 {
+		"imagem":"img/teatrodonamaria.jpg",
+		"nome":"Teatro Nacional D. Maria II",
+		"categoria":"Entretenimento",
+		"desc":"Teatro em casa.",
+		"linkUm":"https://www.facebook.com/TNDMII/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"https://www.tndm.pt/pt/calendario/d-maria-ii-em-casa/",
+		"linkDoisTxt":"Site",
+		"linkTres":"https://www.instagram.com/tndmii/",
+		"linkTresTxt":"Instagram"
 	},
 	{
 		"imagem":"img/crossfitlusiadas.jpg",
@@ -841,6 +841,18 @@ new Vue({
 	
 	],
 	 entretenimento: [
+	 {
+		"imagem":"img/teatrodonamaria.jpg",
+		"nome":"Teatro Nacional D. Maria II",
+		"categoria":"Entretenimento",
+		"desc":"Teatro em casa.",
+		"linkUm":"https://www.facebook.com/TNDMII/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"https://www.tndm.pt/pt/calendario/d-maria-ii-em-casa/",
+		"linkDoisTxt":"Site",
+		"linkTres":"https://www.instagram.com/tndmii/",
+		"linkTresTxt":"Instagram"
+	},
 	 {
 		"imagem":"img/fm2020.jpg",
 		"nome":"Footbal Manager 2020",
