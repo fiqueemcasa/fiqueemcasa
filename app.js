@@ -138,14 +138,14 @@ new Vue({
 		"linkTresTxt":""
 	},
 	{
-		"imagem":"img/beeorganic.jpg",
-		"nome":"Beeorganic",
-		"categoria":"Outros",
-		"desc":"Hortícolas de origem biológica – Ponto de entrega - 918 363 507",
-		"linkUm":"https://www.facebook.com/beeorganic.pt/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"http://beeorganic.pt/",
-		"linkDoisTxt":"Site",
+		"imagem":"img/comuniti.jpg",
+		"nome":"Comuniti",
+		"categoria":"Hipermercado",
+		"desc":"Compras online e entrega em casa.",
+		"linkUm":"https://comuniti.pt/pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
 		"linkTres":"",
 		"linkTresTxt":""
 	}
@@ -194,6 +194,18 @@ new Vue({
 		"categoria":"Hipermercado",
 		"desc":"Compras online e entrega em casa.",
 		"linkUm":"https://dott.pt/pt/campaign/envios-gratuitos-bens-essenciais",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	},
+	{
+		"imagem":"img/comuniti.jpg",
+		"nome":"Comuniti",
+		"categoria":"Hipermercado",
+		"desc":"Compras online e entrega em casa.",
+		"linkUm":"https://comuniti.pt/pt/",
 		"linkUmTxt":"Site",
 		"linkDois":"",
 		"linkDoisTxt":"",
