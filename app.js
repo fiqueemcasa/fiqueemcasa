@@ -8,7 +8,7 @@ new Vue({
 		"imagem":"img/avaliarsintomas.jpg",
 		"nome":"Avaliar Sintomas - Covid19",
 		"categoria":"Covid-19",
-		"desc":"Fact-Checking",
+		"desc":"Aprenda a fazer a despiste ao Covid-19.",
 		"linkUm":"https://www.sns24.gov.pt/avaliar-sintomas/?intro-sc=covid-19",
 		"linkUmTxt":"Site",
 		"linkDois":"",
@@ -90,14 +90,14 @@ new Vue({
 		"linkTresTxt":"Instagram"
 	},
 	{
-		"imagem":"img/crossfitlusiadas.jpg",
-		"nome":"CrossFit Lusíadas",
-		"categoria":"Fitness",
-		"desc":"HOME WOD's diários.",
-		"linkUm":"https://www.instagram.com/crossfitlusiadas/",
-		"linkUmTxt":"Instagram",
-		"linkDois":"https://www.facebook.com/crossfitlusiadas/",
-		"linkDoisTxt":"Facebook",
+		"imagem":"img/cognitivus.jpg",
+		"nome":"Centro Explicações Cognitivus",
+		"categoria":"Para os mais novos",
+		"desc":"Centro de explicações com regime online - 967 561 206",
+		"linkUm":"https://www.facebook.com/Cognitivus.centrodeestudos/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
 		"linkTres":"",
 		"linkTresTxt":""
 	},
@@ -897,6 +897,18 @@ new Vue({
 		"linkDoisTxt":"",
 		"linkTres":"",
 		"linkTresTxt":""
+	},
+	{
+	    "imagem":"img/cognitivus.jpg",
+		"nome":"Centro Explicações Cognitivus",
+		"categoria":"Para os mais novos",
+		"desc":"Centro de explicações com regime online - 967 561 206",
+		"linkUm":"https://www.facebook.com/Cognitivus.centrodeestudos/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
 	}
 	
 	],
@@ -1188,7 +1200,7 @@ new Vue({
 		"imagem":"img/avaliarsintomas.jpg",
 		"nome":"Avaliar Sintomas - Covid19",
 		"categoria":"Covid-19",
-		"desc":"Fact-Checking",
+		"desc":"Aprenda a fazer a despiste ao Covid-19.",
 		"linkUm":"https://www.sns24.gov.pt/avaliar-sintomas/?intro-sc=covid-19",
 		"linkUmTxt":"Site",
 		"linkDois":"",
@@ -1354,6 +1366,21 @@ new Vue({
 		"linkTresTxt":""
 	}
 	
+
+	],
+	 oficinas: [
+	  {
+		"imagem":"img/default.jpg",
+		"nome":"Benfeito Vintage de Carvalhal Benfeito",
+		"categoria":"Oficinas",
+		"desc":"Reparação de máquinas agriculas e florestais assim como de ciclomotores clássicos. 262 927 161 - 916 817 999",
+		"linkUm":"mailto:benfeitovintage@hotmail.com",
+		"linkUmTxt":"Email",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
+	}
 
 	]
   }
