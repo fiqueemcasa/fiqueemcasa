@@ -484,33 +484,7 @@ new Vue({
 	}
    
 	],
-		farmacias: [
-	  {
-		"imagem":"img/vamosnos.jpg",
-		"nome":"Vamos nÓs por si",
-		"categoria":"Ajuda",
-		"desc":"Óbidos, mais de 65 anos, doentes crónicos. Supermercado, Farmácia - Espaço Ó - 912 268 168 - Precisam-se voluntários",
-		"linkUm":"https://www.facebook.com/espaco.ativacao/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
-		"linkDoisTxt":"Voluntários",
-		"linkTres":"",
-		"linkTresTxt":""
-	},
-	 {
-		"imagem":"img/ordempsi.jpg",
-		"nome":"Ordem dos Psicólogos Portugueses",
-		"categoria":"Ajuda",
-		"desc":"Recomendações da Ordem de Psicológicos Portugueses",
-		"linkUm":"https://www.facebook.com/ordemdospsicologos/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"",
-		"linkDoisTxt":"",
-		"linkTres":"",
-		"linkTresTxt":""
-	},
-   
-	],
+
 	farmacias: [
 	  {
 		"imagem":"img/vamosnos.jpg",
@@ -616,7 +590,7 @@ new Vue({
 	comidaemcasa: [
 	  {
 		"imagem":"img/chefsemcasa.jpg",
-		"nome":"FChefs em Casa",
+		"nome":"Chefs em Casa",
 		"categoria":"Comida em casa",
 		"desc":"Entrega em casa, pequeno almoço, almoço, jantar e entrega compras. 917 824 821 / 300 505 15",
 		"linkUm":"https://www.facebook.com/Chefsemcasa/",
