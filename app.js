@@ -66,14 +66,14 @@ new Vue({
 	},
 
 	 {
-		"imagem":"img/papelariavogal.jpg",
-		"nome":"Papelaria Vogal",
-		"categoria":"Papelaria",
-		"desc":"Compras online com entrega em casa ou levantamento na papelaria.",
-		"linkUm":"https://papelariavogal.com/",
-		"linkUmTxt":"Site",
-		"linkDois":"https://www.facebook.com/vogal.papelariatecnica/",
-		"linkDoisTxt":"Facebook",
+		"imagem":"img/bior.jpg",
+		"nome":"Mercearia biológicos da rainha",
+		"categoria":"Mercearia",
+		"desc":"Frutas, legumes e mercearia seca. Compras presenciais e drive thru. 966 568 998",
+		"linkUm":"https://www.facebook.com/biologicosrainha/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
 		"linkTres":"",
 		"linkTresTxt":""
 	},
@@ -407,6 +407,18 @@ new Vue({
 		"linkDoisTxt":"Email",
 		"linkTres":"https://www.instagram.com/merceariazen/",
 		"linkTresTxt":"Instagram"
+	},
+	{
+		"imagem":"img/bior.jpg",
+		"nome":"Mercearia biológicos da rainha",
+		"categoria":"Mercearia",
+		"desc":"Frutas, legumes e mercearia seca. Compras presenciais e drive thru. 966 568 998",
+		"linkUm":"https://www.facebook.com/biologicosrainha/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkTresTxt":""
 	}
 	],
 	ajuda: [
@@ -899,7 +911,7 @@ new Vue({
 		"linkTresTxt":""
 	},
 	{
-	    "imagem":"img/cognitivus.jpg",
+		"imagem":"img/cognitivus.jpg",
 		"nome":"Centro Explicações Cognitivus",
 		"categoria":"Para os mais novos",
 		"desc":"Centro de explicações com regime online - 967 561 206",
