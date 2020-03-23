@@ -39,19 +39,19 @@
 	
 	<meta name="author" content="Fique em casa!!!">
 	<meta name="title"                  content="Fique em casa!!!"/>
-	<meta name="description"            content="Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena. Caldas da Rainha e arredores."/>
-	<meta name="keywords"               content="covid19, covid-19, fique em casa, ajuda, caldas da rainha,"/>
+	<meta name="description"            content="Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena. Caldas da Rainha, Lisboa e Porto."/>
+	<meta name="keywords"               content="covid19, covid-19, fique em casa, ajuda, caldas da rainha, Lisboa, Porto"/>
 	<meta property="og:url"             content="https://fiqueemcasa.github.io/fiqueemcasa/" />
 	<meta property="og:type"            content="website" />
 	<meta property="og:title"           content="Fique em casa!!!" />
-	<meta property="og:description"     content="Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena. Caldas da Rainha e arredores." />
+	<meta property="og:description"     content="Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena. Caldas da Rainha, Lisboa e Porto." />
 	<meta property="og:image"           content="https://fiqueemcasa.github.io/fiqueemcasa/img/ogimage.png" />
 	<meta property="og:site_name"       content="Fique em Casa!!!" />
 	<meta property="og:locale"          content="pt-PT" />
 	<meta name="twitter:card"           content="summary">
 	<meta name="twitter:site"           content="Fique em Casa!!!">
 	<meta name="twitter:title"          content="Fique em Casa!!!">
-	<meta name="twitter:description"    content="Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena. Caldas da Rainha e arredores.">
+	<meta name="twitter:description"    content="Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena. Caldas da Rainha, Lisboa e Porto.">
 	<meta name="twitter:creator"        content="NinjaCorp">
 
 	<link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
@@ -149,24 +149,23 @@
 		<!-- HEADER /////////////////////////////////////////////////////////// -->
 		<!-- HEADER /////////////////////////////////////////////////////////// -->
 		<!-- HEADER /////////////////////////////////////////////////////////// -->
-		<div class="container-fluid pt-4 pb-4 mb-4" id="header">
+		<div class="container-fluid pt-4 pb-4" id="header">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-sm-3"></div>
 					<div class="col-12 col-sm-6">
-						<img src="img/header_fiqueemcasa.png" alt="Fique em Casa!!!" class="img-fluid">
+						<img src="img/header_fiqueemcasa_nacional.png" alt="Fique em Casa!!!" class="img-fluid">
 					</div>
 					<div class="col-12 col-sm-3"></div>
 				</div>
 				<div class="row">
 					<div class="col-12 text-center text-light pt-3">
-						Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena.<br>
-						Caldas da Rainha e arredores.
+						Informações úteis para quem fica em casa a cumprir isolamento obrigatório ou quarentena.
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-12 text-center text-light mt-3">
-						<p><span class="badge badge-dark p-2">Última actualização: 23 de Março 2020 - 13:44</span></p>
+						<p><span class="badge badge-dark p-2">Última actualização: 23 de Março 2020 - 18:53</span></p>
 						<a class="btn btn-primary btn-lg" href="form.html" role="button">Envie sugestões</a>
 						<a class="btn btn-primary btn-lg" role="button" data-toggle="drawer" data-target="#drawer-demo">Info DGS</a>
 					</div>
@@ -174,19 +173,29 @@
 			</div>
 		</div>
 
+		<div class="container-fluid zonecontainer">
+			<div class="row">
+				<div class="w-100 text-center">
+					<ul class="zoneselector">
+						<li @click="toggle(item.category_id,item.category_name)" v-for="item in category" :class="{active: active == item.category_id}">
+							{{ item.category_name }}
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
 
 		<!-- AVISOS /////////////////////////////////////////////////////////// -->
 		<!-- AVISOS /////////////////////////////////////////////////////////// -->
 		<!-- AVISOS /////////////////////////////////////////////////////////// -->
 		<!-- AVISOS /////////////////////////////////////////////////////////// -->
 
-
-		<div class="container">
-			
+		<div class="container pt-4">
 			<div class="row">
 				<div class="col-12">
 					<div class="alert alert-danger" role="alert">
-						<p><strong>Dados Covid-19</strong> - 2.060 casos confirmados - 23 Óbitos - 13.674 casos suspeitos</p>
+						<p><strong>Dados Covid-19</strong> - 1280 casos confirmados - 12 Óbitos - 9854 casos supeitos</p>
 						<a target="_blank" href="https://esriportugal.maps.arcgis.com/apps/opsdashboard/index.html#/acf023da9a0b4f9dbb2332c13f635829" class="card-link">Site</a>
 					</div>
 				</div>
@@ -194,12 +203,11 @@
 			</div>
 		</div>
 
-
 		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
 		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
 		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
 		<!-- DESTAQUES /////////////////////////////////////////////////////////// -->
-
+<!--
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -210,8 +218,7 @@
 			<div class="row destaques">
 
 				
-			<!-- card -->
-			 <template v-for="item in destaques">
+			<template v-for="item in categoryHipermercados">
 				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
@@ -226,12 +233,12 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
+	
 
 					
 			</div>
 		</div>
-
+-->
 
 		<!-- HIPERMERCADOS /////////////////////////////////////////////////////////// -->
 		<!-- HIPERMERCADOS /////////////////////////////////////////////////////////// -->
@@ -248,9 +255,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			 <template v-for="item in hipermercados">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryHipermercados[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryHipermercados">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -264,7 +275,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 	
 
 			</div>
@@ -286,9 +296,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			 <template v-for="item in minimercados">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryMinimercados[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryMinimercados">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -302,7 +316,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 
 				
 			</div>
@@ -324,9 +337,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in ajuda">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryAjuda[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryAjuda">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -340,7 +357,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 				
 
 			</div>
@@ -362,9 +378,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in farmacias">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryFarmacias[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryFarmacias">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -378,7 +398,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 
 			</div>
 		</div>
@@ -400,9 +419,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in comidaemcasa">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryComidaemcasa[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryComidaemcasa">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -416,7 +439,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 		
 
 			</div>
@@ -439,9 +461,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in animais">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryAnimais[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryAnimais">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -455,7 +481,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 
 			</div>
 		</div>
@@ -478,9 +503,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in paraosmaisnovos">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryParaosmaisnovos[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryParaosmaisnovos">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -494,7 +523,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 
 			</div>
 		</div>
@@ -516,9 +544,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in entretenimento">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryEntretenimento[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryEntretenimento">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -532,7 +564,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 
 
 			</div>
@@ -553,10 +584,13 @@
 			</div>
 			<div class="row">
 
-
-			<!-- card -->
-			<template v-for="item in tecnologia">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryTecnologia[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryTecnologia">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -570,7 +604,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 			
 			</div>
 		</div>
@@ -590,9 +623,13 @@
 			</div>
 			<div class="row">
 
-			<!-- card -->
-			<template v-for="item in infocovid19">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryInfocovid19[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryInfocovid19">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -606,7 +643,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 				
 
 			</div>
@@ -629,9 +665,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in fitness">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryFitness[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryFitness">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -645,7 +685,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 
 
 			</div>
@@ -667,10 +706,13 @@
 			<div class="row">
 
 
-
-			<!-- card -->
-			<template v-for="item in actividades">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryActividades[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryActividades">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -684,7 +726,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 				
 			
 			</div>
@@ -705,9 +746,13 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in papelaria">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryPapelaria[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>	
+			<template v-for="item in categoryPapelaria">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -721,7 +766,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 			
 
 			</div>
@@ -743,9 +787,14 @@
 			<div class="row">
 
 
-			<!-- card -->
-			<template v-for="item in oficinas">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+
+			<div class="col-12" v-show="!categoryOficinas[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>
+			<template v-for="item in categoryOficinas">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -759,7 +808,7 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
+		
 
 			</div>
 		</div>
@@ -780,10 +829,13 @@
 			</div>
 			<div class="row">
 
-
-			<!-- card -->
-			<template v-for="item in apps">
-				 <div class="col-12 col-md-6 col-lg-4 mb-4">
+			<div class="col-12" v-show="!categoryApps[0]">
+				<div class="alert alert-secondary" role="alert">
+					 Não há items desta categoria na região seleccionada. <a href="form.html" class="alert-link">Inserir sugestão</a>.
+				</div>
+			</div>	
+			<template v-for="item in categoryApps">
+				 <div class="col-12 col-md-4 mb-4">
 					<div class="card w-100">
 						<img v-bind:src="item.imagem" class="card-img-top" v-bind:alt="item.nome">
 						<div class="card-body">
@@ -797,7 +849,6 @@
 					</div>
 				</div>
 			</template>
-			<!-- fim de card -->
 
 			</div>
 		</div>
@@ -907,6 +958,15 @@
 		$('.navbar-nav>li>a').on('click', function(){
 			$('.navbar-collapse').collapse('hide');
 		});
+
+		$(window).bind('scroll', function () {
+			if ($(window).scrollTop() > 400) {
+				$('.zoneselector').addClass('fixed');
+			} else {
+				$('.zoneselector').removeClass('fixed');
+			}
+		});
+			
 			
 		
 		</script>

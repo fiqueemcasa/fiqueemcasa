@@ -3,6 +3,22 @@ new Vue({
   data() {
   return {
 	time:  ['21 de Março 2020 - 17:53'],
+	category: [
+	 {
+	  category_id: "1",
+	  category_name: "Caldas da Rainha"
+	}, 
+	{
+	  category_id: "2",
+	  category_name: "Lisboa"
+	},
+	{
+	  category_id: "3",
+	  category_name: "Porto"
+	}
+
+	],
+	active: '1',
 	destaques: [
 	 {
 		"imagem":"img/avaliarsintomas.jpg",
@@ -14,7 +30,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/covid19duvidas.jpg",
@@ -26,7 +43,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/helpcaldascovid.jpg",
@@ -38,7 +56,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/wemendesbatas.jpg",
@@ -50,7 +69,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/merceariazen.jpg",
@@ -62,7 +82,8 @@ new Vue({
 		"linkDois":"mailto:zennarius@gmail.com",
 		"linkDoisTxt":"Email",
 		"linkTres":"https://www.instagram.com/merceariazen/",
-		"linkTresTxt":"Instagram"
+		"linkTresTxt":"Instagram",
+		"category_id": "1"
 	},
 
 	 {
@@ -75,7 +96,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	 {
 		"imagem":"img/teatrodonamaria.jpg",
@@ -87,7 +109,8 @@ new Vue({
 		"linkDois":"https://www.tndm.pt/pt/calendario/d-maria-ii-em-casa/",
 		"linkDoisTxt":"Site",
 		"linkTres":"https://www.instagram.com/tndmii/",
-		"linkTresTxt":"Instagram"
+		"linkTresTxt":"Instagram",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/cognitivus.jpg",
@@ -99,7 +122,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/oclock.jpg",
@@ -111,7 +135,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/jardimcafe.jpg",
@@ -123,7 +148,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/clinicaveterenariaobidos.jpg",
@@ -135,7 +161,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/farmaciaalvorinha.jpg",
@@ -147,7 +174,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/comuniti.jpg",
@@ -159,7 +187,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	}
 
 	],
@@ -174,7 +203,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/elecrerc.jpg",
@@ -186,7 +216,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	 {
 		"imagem":"img/auchan.gif",
@@ -198,7 +229,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/dott.png",
@@ -210,7 +242,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/comuniti.jpg",
@@ -222,8 +255,49 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
+	},
+	 {
+		"imagem":"img/bneed.jpg",
+		"nome":"Bneed",
+		"categoria":"Hipermercado",
+		"desc":"Serviço de shopping online na cidade do Porto.",
+		"linkUm":"http://www.bneed.pt/global/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id": "3"
+	},
+	 {
+		"imagem":"img/ninghtshift.jpg",
+		"nome":"A Night Shift",
+		"categoria":"Hipermercado",
+		"desc":"Serviço de entrega de alguns produtos de supermercado durante a noite",
+		"linkUm":"https://www.nightshift.com.pt/pt/sobre-nos",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id": "2"
+	},
+	{
+		"imagem":"img/goodafter.jpg",
+		"nome":"Good After",
+		"categoria":"Hipermercado",
+		"desc":" Dedica-se à venda de produtos que se encontram perto do fim do prazo de validade.",
+		"linkUm":"https://goodafter.com/pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id": [1,2,3]
 	}
+
    
 
 	],
@@ -238,7 +312,8 @@ new Vue({
 		"linkDois":"https://www.facebook.com/mercearia.pena/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	 {
 		"imagem":"img/aloja.jpg",
@@ -250,7 +325,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	 {
 		"imagem":"img/bancadacristina.jpg",
@@ -262,7 +338,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/gelrainha.jpg",
@@ -274,7 +351,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/graneldarainha.jpg",
@@ -286,7 +364,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/default.jpg",
@@ -298,7 +377,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/default.jpg",
@@ -310,7 +390,8 @@ new Vue({
 		"linkDois":"mailto:raizdoeste@gmail.com",
 		"linkDoisTxt":"Email",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/hortapedescalco.jpg",
@@ -322,7 +403,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/default.jpg",
@@ -334,7 +416,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/beeorganic.jpg",
@@ -346,7 +429,8 @@ new Vue({
 		"linkDois":"http://beeorganic.pt/",
 		"linkDoisTxt":"Site",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/biosmercado.jpg",
@@ -358,7 +442,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/osprodutosdaquinta.jpg",
@@ -370,7 +455,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/sandraloirinha.jpg",
@@ -382,7 +468,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/drogariadascaldas.jpg",
@@ -394,7 +481,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/merceariazen.jpg",
@@ -406,7 +494,8 @@ new Vue({
 		"linkDois":"mailto:zennarius@gmail.com",
 		"linkDoisTxt":"Email",
 		"linkTres":"https://www.instagram.com/merceariazen/",
-		"linkTresTxt":"Instagram"
+		"linkTresTxt":"Instagram",
+		"category_id": "1"
 	},
 	{
 		"imagem":"img/bior.jpg",
@@ -418,8 +507,244 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
+	},
+	 {
+		"imagem":"img/hortadobairro.jpg",
+		"nome":"Horta do Bairro",
+		"categoria":"Minimercados",
+		"desc":"Entrega de produtos horticolas em sua casa.",
+		"linkUm":"http://hortadobairro.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "2"
+	},
+	{
+		"imagem":"img/cuizeat.jpg",
+		"nome":"Cuizeat",
+		"categoria":"Minimercados",
+		"desc":"Entrega produtos alimentares tendo como base receitas.",
+		"linkUm":"https://www.cuizeat.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "2"
+	},
+	{
+		"imagem":"img/aquintinha.jpg",
+		"nome":"A Quintinha",
+		"categoria":"Minimercados",
+		"desc":"Frutas e legumes biológicos.",
+		"linkUm":"http://www.quintinha.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/biohabitos.jpg",
+		"nome":"Bio Habitus",
+		"categoria":"Minimercados",
+		"desc":"Frutas, legumes pão e produtos a granel - 966 885 052",
+		"linkUm":"https://www.facebook.com/BioHabitus/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/bioemcasa.jpg",
+		"nome":"Bio em Casa",
+		"categoria":"Minimercados",
+		"desc":"Frutas e legumes biológicos e locais.",
+		"linkUm":"https://www.bioemcasa.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/hortaaporta.jpg",
+		"nome":"Horta à Porta",
+		"categoria":"Minimercados",
+		"desc":"Frutas e legumes biológicos.",
+		"linkUm":"http://www.hortaaporta.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/padariaribeiro.jpg",
+		"nome":"Padaria Ribeiro",
+		"categoria":"Padaria",
+		"desc":"Padaria - 916 824 173",
+		"linkUm":"https://www.instagram.com/padaria.ribeiro/",
+		"linkUmTxt":"Instagram",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/default.jpg",
+		"nome":"Trindade Pão Artesanal",
+		"categoria":"Padaria",
+		"desc":"Padaria - Encomendar com 48h de antecedência.",
+		"linkUm":"mailto:trindadepaoartesanal@gmail.com",
+		"linkUmTxt":"Email",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/tamaras.jpg",
+		"nome":"Tâmaras",
+		"categoria":"Pastelaria",
+		"desc":"Pastelaria Vegan.",
+		"linkUm":"https://www.tamaraspastelariasaudavel.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/biodiversos.jpg",
+		"nome":"Biodiversus",
+		"categoria":"Hortícolas",
+		"desc":"Entrega de produtos biológicos.",
+		"linkUm":"http://www.biodiversus.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/robi.jpg",
+		"nome":"Lojas Robi",
+		"categoria":"Supermercado",
+		"desc":"Supermercado e Mini-mercados com Talho, Fruta & Legumes, Mercearia, Congelados - 255 962 299",
+		"linkUm":"http://www.robi.com.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/obradorta.jpg",
+		"nome":"Obra d'Horta",
+		"categoria":"Hortícolas",
+		"desc":"Hortícolas e Frutas Biológicos",
+		"linkUm":"http://obradehorta.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/orapazdaquinta.jpg",
+		"nome":"O Rapaz da Quinta",
+		"categoria":"Hortícolas",
+		"desc":"Hortícolas e Frutas Biológicos - 961 057 377",
+		"linkUm":"https://www.facebook.com/orapazdaquinta",
+		"linkUmTxt":"Facebook",
+		"linkDois":"mailto:orapazdaquinta@gmail.com",
+		"linkDoisTxt":"Email",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/humusagri.jpg",
+		"nome":"Húmus - Agricultura Biológica",
+		"categoria":"Hortícolas",
+		"desc":"Hortícolas e Frutas Biológicos - 925 229 824",
+		"linkUm":"https://www.facebook.com/humus.bio/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/default.jpg",
+		"nome":"Talho Cecília Ferreira",
+		"categoria":"Talho",
+		"desc":"Talho - 226 182 659",
+		"linkUm":"tel:+351226182659",
+		"linkUmTxt":"Telefone",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/default.jpg",
+		"nome":"Peixaria Celeste Cadilhe",
+		"categoria":"Peixaria",
+		"desc":"Peixaria - 226 180 110",
+		"linkUm":"tel:+351226180110",
+		"linkUmTxt":"Telefone",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/padariaformosa.jpg",
+		"nome":"Padaria Formosa",
+		"categoria":"Padaria",
+		"desc":"Padaria Pastelaria - 226 180 781",
+		"linkUm":"http://www.padariaformosa.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/cestaverde.jpg",
+		"nome":"Cesta Verde",
+		"categoria":"Mercearia",
+		"desc":"Legumes, frutas, ervas aromáticas, a granel: frutos secos, leguminosas, especiarias.",
+		"linkUm":"http://www.cestaverde.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
 	}
+
 	],
 	ajuda: [
 	  {
@@ -432,7 +757,8 @@ new Vue({
 		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
 		"linkDoisTxt":"Voluntários",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	 {
 		"imagem":"img/ordempsi.jpg",
@@ -444,7 +770,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : [1,2,3]
 	},
 	 {
 		"imagem":"img/wemendesbatas.jpg",
@@ -456,7 +783,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : [1,2,3]
 	},
 	 {
 		"imagem":"img/helpcaldascovid.jpg",
@@ -468,7 +796,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "a"
 	},
 	 {
 		"imagem":"img/naosaiatornada.jpg",
@@ -480,36 +809,49 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
-	}
-   
-	],
-
-	farmacias: [
-	  {
-		"imagem":"img/vamosnos.jpg",
-		"nome":"Vamos nÓs por si",
-		"categoria":"Ajuda",
-		"desc":"Óbidos, mais de 65 anos, doentes crónicos. Supermercado, Farmácia - Espaço Ó - 912 268 168 - Precisam-se voluntários",
-		"linkUm":"https://www.facebook.com/espaco.ativacao/",
-		"linkUmTxt":"Facebook",
-		"linkDois":"https://docs.google.com/forms/d/e/1FAIpQLScrLqGKp9jH6bqTtrYIg7FByBcriMDD2CxSBmxQoJg1pLeBww/viewform",
-		"linkDoisTxt":"Voluntários",
-		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	 {
-		"imagem":"img/ordempsi.jpg",
-		"nome":"Ordem dos Psicólogos Portugueses",
+		"imagem":"img/vixinhoamigo.jpg",
+		"nome":"Vizinho Amigo",
 		"categoria":"Ajuda",
-		"desc":"Recomendações da Ordem de Psicológicos Portugueses",
-		"linkUm":"https://www.facebook.com/ordemdospsicologos/",
+		"desc":"VOLUNTÁRIOS - Ajudam quem não pode sair de casa.",
+		"linkUm":"https://www.facebook.com/Vizinho-Amigo-111145073840476/",
 		"linkUmTxt":"Facebook",
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkUmTres":"",
+		"category_id" : [1,2,3]
 	},
+	 {
+		"imagem":"img/vixinhoamigo.jpg",
+		"nome":"SOS Vizinho",
+		"categoria":"Ajuda",
+		"desc":"VOLUNTÁRIOS - Ajuda a quem mais precisa.",
+		"linkUm":"https://sosvizinho.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [1,2,3]
+	},
+	 {
+		"imagem":"img/queroajudar.jpg",
+		"nome":"Quero Ajudar",
+		"categoria":"Ajuda",
+		"desc":"VOLUNTÁRIOS - Apoio psicológico, compras de supermercado ou da farmácia.",
+		"linkUm":"https://app.queroajudar.org/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [1,2,3]
+	}
+   
    
 	],
 	farmacias: [
@@ -523,7 +865,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" :"1"
 	},
 	 {
 		"imagem":"img/farmaciasenhoraajuda.jpg",
@@ -535,7 +878,8 @@ new Vue({
 		"linkDois":"https://www.facebook.com/fsajuda/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" :"1"
 	},
 	{
 		"imagem":"img/farmaciarosa.jpg",
@@ -547,7 +891,8 @@ new Vue({
 		"linkDois":"https://www.facebook.com/farmaciarosacaldasdarainha/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" :"1"
 	},
 	{
 		"imagem":"img/farmaciasantacatarina.jpg",
@@ -559,7 +904,8 @@ new Vue({
 		"linkDois":"https://www.facebook.com/farmaciasantcatarina/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" :"1"
 	},
 	{
 		"imagem":"img/farmaciaoliveira.jpg",
@@ -571,7 +917,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" :"1"
 	},
 	{
 		"imagem":"img/farmaciafozdoarelho.jpg",
@@ -583,7 +930,60 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" :"1"
+	},
+	 {
+		"imagem":"img/farmacianaweb.jpg",
+		"nome":"Farmácia na Web",
+		"categoria":"Farmácias",
+		"desc":"Compras de farmácia online",
+		"linkUm":"https://farmacianaweb.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" :[1,2,3]
+	},
+	 {
+		"imagem":"img/farmaciasadabandeira.jpg",
+		"nome":"Farmácia Sá da Bandeira",
+		"categoria":"Farmácias",
+		"desc":"Entrega de medicamentos em Porto, Matosinhos, Maia, Gondomar e Vila Nova de Gaia - 222 074 040",
+		"linkUm":"https://www.sadabandeira.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" :"3"
+	},
+	 {
+		"imagem":"img/farmaciagomes.jpg",
+		"nome":"Farmácia Gomes",
+		"categoria":"Farmácias",
+		"desc":"Entrega de medicamentos - 253 961 237",
+		"linkUm":"https://www.facebook.com/Farm%C3%A1cia-Gomes-133812733364223/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" :"3"
+	},
+	 {
+		"imagem":"img/atuafarmacia.jpg",
+		"nome":"A Tua Farmácia",
+		"categoria":"Farmácias",
+		"desc":"Entrega de produtos farmaceuticos",
+		"linkUm":"https://atuafarmacia.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" :[1,2,3]
 	}
    
 	],
@@ -598,7 +998,8 @@ new Vue({
 		"linkDois":"https://chefs-em-casa.pt/",
 		"linkDoisTxt":"Site",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	 {
 		"imagem":"img/funky.jpg",
@@ -610,7 +1011,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/leef.jpg",
@@ -622,7 +1024,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/novomundo.jpg",
@@ -634,7 +1037,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/telepizza.jpg",
@@ -646,7 +1050,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/mrpizza.jpg",
@@ -658,7 +1063,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/tibino.jpg",
@@ -670,7 +1076,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/saboresditalia.jpg",
@@ -682,7 +1089,8 @@ new Vue({
 		"linkDois":"saboresditalia.com",
 		"linkDoisTxt":"Site",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/restaurantegirassol.jpg",
@@ -694,7 +1102,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/oclock.jpg",
@@ -706,7 +1115,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
 	},
 	{
 		"imagem":"img/jardimcafe.jpg",
@@ -718,9 +1128,260 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
+	},
+	 {
+		"imagem":"img/ubereats.jpg",
+		"nome":"Uber Eats",
+		"categoria":"Comida em casa",
+		"desc":"Está com fome? Receba a comida que quiser, dos restaurantes de que gosta, entregue à velocidade Uber.",
+		"linkUm":"https://www.ubereats.com/pt",
+		"linkUmTxt":"Site",
+		"linkDois":"https://play.google.com/store/apps/details?id=com.ubercab.eats",
+		"linkDoisTxt":"Play Store",
+		"linkTres":"https://apps.apple.com/us/app/uber-eats-order-food-delivery/id1058959277",
+		"linkUmTres":"App Store",
+		"category_id" : [1,2,3]
+	},
+	 {
+		"imagem":"img/glovo.jpg",
+		"nome":"Glovo",
+		"categoria":"Comida em casa",
+		"desc":"Comida em casa em minutos.",
+		"linkUm":"https://glovoapp.com/en/lis",
+		"linkUmTxt":"Site",
+		"linkDois":"https://play.google.com/store/apps/details?id=com.glovo",
+		"linkDoisTxt":"Play Store",
+		"linkTres":"https://apps.apple.com/pt/app/glovo-entrega-de-comida-e-mais/id951812684",
+		"linkUmTres":"App Store",
+		"category_id" : [2,3]
+	},
+	{
+		"imagem":"img/glovo.jpg",
+		"nome":"Bite my lunch",
+		"categoria":"Comida em casa",
+		"desc":"Comida em casa em minutos.",
+		"linkUm":"https://bitemylunch.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/nomenu.jpg",
+		"nome":"NoMenu",
+		"categoria":"Comida em casa",
+		"desc":"Entrega de refeições.",
+		"linkUm":"https://www.nomenu.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [2,3]
+	},
+	{
+		"imagem":"img/comeremcasa.jpg",
+		"nome":"Comer em Casa",
+		"categoria":"Comida em casa",
+		"desc":"790 restaurantes em 18 regiões de Portugal.",
+		"linkUm":"https://www.comeremcasa.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [2,3]
+	}
+	,{
+		"imagem":"img/takeaway.jpg",
+		"nome":"Takeaway",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de comida em casa.",
+		"linkUm":"https://www.takeaway.com/pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [2,3]
+	},
+	{
+		"imagem":"img/paoemcasa.jpg",
+		"nome":"Pão em Casa",
+		"categoria":"Comida em casa",
+		"desc":"Serviço de padaria com entrega em casa",
+		"linkUm":"https://paoemcasa.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [2,3]
+	},
+	{
+		"imagem":"img/eattasty.jpg",
+		"nome":"EatTasty",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de comida em casa.",
+		"linkUm":"https://eattasty.pt/home",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/cookoo.jpg",
+		"nome":"COOKOO - The Kitchen Hub",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de comida em casa - 217 272 531",
+		"linkUm":"https://www.cookoo.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "2"
+	},
+	{
+		"imagem":"img/amordehortela.jpg",
+		"nome":"Amor e Hortelã",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de refeições vegetarianas em casa - 917 550 374",
+		"linkUm":"https://www.amorehortela.pt/p/servicos.html",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/patriadoce.jpg",
+		"nome":"Patriadoce",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de pastelaria/padaria",
+		"linkUm":"https://www.facebook.com/Patriadoce-101096878192715/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
+	},
+	{
+		"imagem":"img/comidaemcasa.jpg",
+		"nome":"Casa da Comida",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de refeições - 218 115 020",
+		"linkUm":"https://www.facebook.com/casadacomida.pt/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "2"
+	},
+	{
+		"imagem":"img/chefpanda.jpg",
+		"nome":"ChefPanda",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de pastelaria - 964 270 545",
+		"linkUm":"https://www.chefpanda.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [2,3]
+	},
+	{
+		"imagem":"img/foodforreal.jpg",
+		"nome":"The Food For Real",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de refeições - 926 784 109",
+		"linkUm":"https://www.thefoodforreal.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "2"
+	},
+	{
+		"imagem":"img/dominos.jpg",
+		"nome":"Domino's",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de pizzas",
+		"linkUm":"https://www.dominospizza.pt/pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [2,3]
+	},
+	{
+		"imagem":"img/amarmita.jpg",
+		"nome":"A Marmita",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de refeições - 211 933 159",
+		"linkUm":"https://www.amarmita.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "2"
+	},
+	{
+		"imagem":"img/masstige.jpg",
+		"nome":"Masstige Catering",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de refeições - 913 788 978",
+		"linkUm":"https://www.masstige.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "2"
+	},
+	{
+		"imagem":"img/magariristorante.jpg",
+		"nome":"Ristorante Magari",
+		"categoria":"Comida em casa",
+		"desc":"Encomenda e entrega de refeições - 221 110 420",
+		"linkUm":"https://www.facebook.com/magariristorante/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : "3"
 	}
 	
+   
+	],
+	servicos: [
+	  {
+		"imagem":"img/luggit.png",
+		"nome":"LUGGit",
+		"categoria":"Serviços",
+		"desc":"Serviço que  permite enviar bens a um familiar ou amigo sem sair de casa, de forma segura e o mais rápida possível no Porto e em Lisboa - 913 880 216",
+		"linkUm":"https://docs.google.com/forms/d/e/1FAIpQLSdbrpgbHrlGl4tsEnal3jIe5RI7oWCHLP2QnPTYOCrqy5lKnw/viewform",
+		"linkUmTxt":"Formulário",
+		"linkDois":"https://wa.me/351913880216 ",
+		"linkDoisTxt":"WhatsApp",
+		"linkTres":"http://m.me/luggitapp",
+		"linkUmTres":"Messenger",
+		"category_id": [2,3]
+	}
    
 	],
 	 animais: [
@@ -734,7 +1395,47 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id" : "1"
+	},
+	{
+		"imagem":"img/goldpet.jpg",
+		"nome":"Goldpet",
+		"categoria":"Animais",
+		"desc":"Loja de animain online.",
+		"linkUm":"https://goldpet.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [1,2,3]
+	},
+	{
+		"imagem":"img/petoutlet.jpg",
+		"nome":"PetOutlet",
+		"categoria":"Animais",
+		"desc":"Loja de animain online - 229 686 051",
+		"linkUm":"https://www.petoutlet.pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id" : [1,2,3]
+	},
+	{
+		"imagem":"img/barkyn.jpg",
+		"nome":"Barkyn",
+		"categoria":"Hipermercado",
+		"desc":"Venda online de ração - 912 760 990",
+		"linkUm":"https://www.barkyn.com/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id": [1,2,3]
 	}
 	
 
@@ -750,7 +1451,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/auladigital.jpg",
@@ -762,7 +1464,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/tsuru.jpg",
@@ -774,7 +1477,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/rtpensina.jpg",
@@ -786,7 +1490,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/profeladiogouveia.jpg",
@@ -798,7 +1503,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/estacaodasletras.jpg",
@@ -810,7 +1516,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/nomeusacodehistorias.jpg",
@@ -822,7 +1529,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/bibliotecapnl.jpg",
@@ -834,7 +1542,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/escolamagica.jpg",
@@ -846,7 +1555,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/khanacademy.jpg",
@@ -858,7 +1568,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/projectadamastor.jpg",
@@ -870,7 +1581,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 	   "imagem":"img/ascancoesdamaria.jpg",
@@ -882,7 +1594,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/cognitivus.jpg",
@@ -894,7 +1607,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	}
 	
 	],
@@ -909,7 +1623,8 @@ new Vue({
 		"linkDois":"https://www.tndm.pt/pt/calendario/d-maria-ii-em-casa/",
 		"linkDoisTxt":"Site",
 		"linkTres":"https://www.instagram.com/tndmii/",
-		"linkTresTxt":"Instagram"
+		"linkTresTxt":"Instagram",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/fm2020.jpg",
@@ -921,7 +1636,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/euficoemcasa.jpg",
@@ -933,7 +1649,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/rtpensina.jpg",
@@ -945,7 +1662,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/medeiafilmes.jpg",
@@ -957,7 +1675,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/nga.jpg",
@@ -969,7 +1688,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/vaticano.jpg",
@@ -981,7 +1701,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/nam.jpg",
@@ -993,7 +1714,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/prado.jpg",
@@ -1005,7 +1727,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/louvre.jpg",
@@ -1017,7 +1740,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/britishmuseu.jpg",
@@ -1029,7 +1753,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/hermitage.jpg",
@@ -1041,7 +1766,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/brera.jpg",
@@ -1053,7 +1779,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/uffizi.jpg",
@@ -1065,7 +1792,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/metropolitan.jpg",
@@ -1077,7 +1805,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/guggen.jpg",
@@ -1089,7 +1818,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/dali.jpg",
@@ -1101,7 +1831,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/fridakahlo.jpg",
@@ -1113,7 +1844,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	}
 	
 
@@ -1129,7 +1861,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	}
 	
 	],
@@ -1144,7 +1877,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/dgs.jpg",
@@ -1156,7 +1890,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/estamoson.jpg",
@@ -1168,7 +1903,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/poligrafo.jpg",
@@ -1180,7 +1916,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/avaliarsintomas.jpg",
@@ -1192,7 +1929,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/covid19duvidas.jpg",
@@ -1204,7 +1942,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	}
 	
 	],
@@ -1219,7 +1958,8 @@ new Vue({
 		"linkDois":"https://www.facebook.com/crossfitlusiadas/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/quarentraining.jpg",
@@ -1231,7 +1971,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	}
 	
 	],
@@ -1246,7 +1987,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/default.jpg",
@@ -1258,7 +2000,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	 {
 		"imagem":"img/default.jpg",
@@ -1270,7 +2013,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/default.jpg",
@@ -1282,7 +2026,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/default.jpg",
@@ -1294,7 +2039,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/moma.jpg",
@@ -1306,7 +2052,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	}
 	
 	],
@@ -1321,7 +2068,8 @@ new Vue({
 		"linkDois":"https://www.facebook.com/vogal.papelariatecnica/",
 		"linkDoisTxt":"Facebook",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	}
 	
 
@@ -1337,7 +2085,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	},
 	{
 		"imagem":"img/houseparty.jpg",
@@ -1349,7 +2098,8 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": [1,2,3]
 	}
 	
 
@@ -1365,11 +2115,231 @@ new Vue({
 		"linkDois":"",
 		"linkDoisTxt":"",
 		"linkTres":"",
-		"linkTresTxt":""
+		"linkTresTxt":"",
+		"category_id": "1"
 	}
 
 	]
   }
-}
+},
+
+ computed: {
+
+	categoryHipermercados ()
+	{
+	 let that = this
+	 return this.hipermercados.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryMinimercados ()
+	{
+	 let that = this
+	 return this.minimercados.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryAjuda ()
+	{
+	 let that = this
+	 return this.ajuda.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryFarmacias ()
+	{
+	 let that = this
+	 return this.farmacias.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryComidaemcasa ()
+	{
+	 let that = this
+	 return this.comidaemcasa.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+	categoryServicos ()
+	{
+	 let that = this
+	 return this.servicos.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryAnimais ()
+	{
+	 let that = this
+	 return this.animais.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryParaosmaisnovos ()
+	{
+	 let that = this
+	 return this.paraosmaisnovos.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryEntretenimento ()
+	{
+	 let that = this
+	 return this.entretenimento.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryTecnologia ()
+	{
+	 let that = this
+	 return this.paraosmaisnovos.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryInfocovid19 ()
+	{
+	 let that = this
+	 return this.infocovid19.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryFitness ()
+	{
+	 let that = this
+	 return this.fitness.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryActividades ()
+	{
+	 let that = this
+	 return this.actividades.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryPapelaria ()
+	{
+	 let that = this
+	 return this.papelaria.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryOficinas ()
+	{
+	 let that = this
+	 return this.oficinas.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	},
+
+	categoryApps ()
+	{
+	 let that = this
+	 return this.apps.filter (p => {
+		if (Array.isArray (p.category_id)) {
+		 let active = parseInt (that.active);
+		 return p.category_id.includes (active)
+	   } else {
+		 return p.category_id === that.active
+	   }
+	 })
+	}
+
+
+  },
+  methods: {
+	toggle(i, v) {
+	  this.active = i
+	  //console.log(i)
+	  //this.currentView = v
+	}
+  }
  
 })
