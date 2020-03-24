@@ -2151,7 +2151,10 @@ new Vue({
 },
 
  computed: {
-
+	cache: false,
+	 get () {
+      return Date.now() + this.msg
+    },
 	categoryHipermercados ()
 	{
 	 let that = this
