@@ -840,7 +840,7 @@ new Vue({
 		"category_id" : [1,2,3]
 	},
 	 {
-		"imagem":"img/vixinhoamigo.jpg",
+		"imagem":"img/default.jpg",
 		"nome":"SOS Vizinho",
 		"categoria":"Ajuda",
 		"desc":"VOLUNTÁRIOS - Ajuda a quem mais precisa.",
@@ -2153,8 +2153,8 @@ new Vue({
  computed: {
 	cache: false,
 	 get () {
-      return Date.now() + this.msg
-    },
+	  return Date.now() + this.msg
+	},
 	categoryHipermercados ()
 	{
 	 let that = this
