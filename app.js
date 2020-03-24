@@ -297,6 +297,19 @@ new Vue({
 		"linkTres":"",
 		"linkUmTres":"",
 		"category_id": [1,2,3]
+	},
+	{
+		"imagem":"img/mercachefe.jpg",
+		"nome":"MercaChefe",
+		"categoria":"Hipermercado",
+		"desc":"MercaChefe.pt responde PRESENTE e aceita compras de particulares.",
+		"linkUm":"https://mercachefe.pt/pt/",
+		"linkUmTxt":"Site",
+		"linkDois":"",
+		"linkDoisTxt":"",
+		"linkTres":"",
+		"linkUmTres":"",
+		"category_id": [1,2,3]
 	}
 
    
@@ -1454,7 +1467,7 @@ new Vue({
 	{
 		"imagem":"img/barkyn.jpg",
 		"nome":"Barkyn",
-		"categoria":"Hipermercado",
+		"categoria":"Animais",
 		"desc":"Venda online de ração - 912 760 990",
 		"linkUm":"https://www.barkyn.com/",
 		"linkUmTxt":"Site",
