@@ -744,6 +744,19 @@ new Vue({
 		"linkTres":"",
 		"linkUmTres":"",
 		"category_id" : "3"
+	},
+	{
+		"imagem":"img/pigmeu.jpg",
+		"nome":"Pigmeu Mercearia",
+		"categoria":"Mercearia",
+		"desc":"Mercearia e venda de frescos. Delivery ou takeaway - 218 252 990",
+		"linkUm":"https://www.facebook.com/pigmeuportugal/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"https://instagram.com/pigmeuportugal?igshid=kjzjsgtmrgep",
+		"linkDoisTxt":"Instagram",
+		"linkTres":"www.pigmeu.pt/mercearia-online",
+		"linkTresTxt":"Site",
+		"category_id" : "2"
 	}
 
 	],
@@ -1365,6 +1378,19 @@ new Vue({
 		"linkTres":"",
 		"linkUmTres":"",
 		"category_id" : "3"
+	},
+	{
+		"imagem":"img/pigmeu.jpg",
+		"nome":"Pigmeu",
+		"categoria":"Comida em casa",
+		"desc":"Restaurante e venda de frescos. Delivery ou takeaway - 218 252 990",
+		"linkUm":"https://www.facebook.com/pigmeuportugal/",
+		"linkUmTxt":"Facebook",
+		"linkDois":"https://instagram.com/pigmeuportugal?igshid=kjzjsgtmrgep",
+		"linkDoisTxt":"Instagram",
+		"linkTres":"https://www.pigmeu.pt/",
+		"linkTresTxt":"Site",
+		"category_id" : "2"
 	}
 	
    
