@@ -15,7 +15,7 @@
     "slick-carousel": "1.8.1",
     "jquery-migrate": "1.2.1",
     "vue": "2.6.11",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "popper.js": "1.16.0"
   },
   "scripts": {},
